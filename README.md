@@ -20,24 +20,9 @@ This environment is designed for engineers who want a reproducible, minimal‑fr
 
 ## 2. Directory Structure
 
-cocotb_verif_accumulator
-│
-├── Makefile                 # Tool checks and environment validation
-├── py311/                   # Python 3.11 virtual environment
-│   ├── bin/                 # Python, pip, executables
-│   └── lib/                 # Installed Python packages
-│
-├── sim/                     # HDL simulation and cocotb tests (optional)
-│   ├── Makefile             # Cocotb simulation makefile
-│   ├── dut.sv               # Example DUT
-│   ├── test_dut.py          # Cocotb testbench
-│   ├── modules/             # Drivers, monitors, scoreboards
-│   ├── logs/                # Simulation logs
-│   └── waves/               # Waveform dumps (.vcd/.fst)
-│
-└── README.md                # Project documentation
 
----
+<img width="1220" height="805" alt="image" src="https://github.com/user-attachments/assets/546ad838-6bc9-434e-b7b6-2f8d91ef8dda" />
+
 
 ## 3. Toolchain Validation
 
