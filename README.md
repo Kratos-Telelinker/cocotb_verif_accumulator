@@ -20,7 +20,7 @@ This environment is designed for engineers who want a reproducible, minimal‑fr
 
 ## 2. Directory Structure
 
-cocotb_modified3/
+cocotb_verif_accumulator
 │
 ├── Makefile                 # Tool checks and environment validation
 ├── py311/                   # Python 3.11 virtual environment
