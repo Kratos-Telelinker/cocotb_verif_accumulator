@@ -1,0 +1,19 @@
+# Python packages for cocotb_modified3 (Python 3.11)
+
+cocotb==2.0.1
+cocotb-test==0.2.2
+cocotb-coverage==1.1.0
+
+pytest==7.4.4
+pytest-xdist==3.5.0
+
+find-libpython==0.4.0
+setuptools>=68
+wheel>=0.42
+
+# Optional but recommended
+pyuvm==2.8.0
+numpy==1.26.4
+rich==13.7.1
+packaging==24.0
+

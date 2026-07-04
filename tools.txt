@@ -1,0 +1,28 @@
+# Required system tools for cocotb_modified3
+
+Python 3.11.x
+Virtualenv (python3.11-venv)
+
+# HDL simulators
+Verilator 5.014 or 5.016
+Icarus Verilog 11.0 (optional)
+
+# Waveform viewer
+GTKWave >= 3.3.118
+
+# Build tools
+gcc >= 11
+g++ >= 11
+make >= 4.3
+pkg-config >= 0.29
+
+# System libraries
+libpython3.11-dev
+libevent-dev
+libffi-dev
+libreadline-dev
+
+# Optional tools
+Git >= 2.34
+VS Code (Python + Verilog extensions)
+

@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Dual-Channel Adder Verification Environment}
+\author{Kratos}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This document describes a complete verification environment for a dual-channel adder design using
+SystemVerilog, Cocotb, and Verilator. It includes architecture, coverage, regression methodology,
+and waveform generation.
+
+\section{Architecture Overview}
+\subsection{Block Diagram}
+\begin{verbatim}
+   +--------------------------------------------------------+
+   |                        DUT Wrapper                     |
+   |--------------------------------------------------------|
+   |  Channel A: a_A, b_A, valid_in_A, rst_A → sum_async_A  |
+   |  Channel B: a_B, b_B, valid_in_B, rst_B → sum_async_B  |
+   +--------------------------+-----------------------------+
+                              |
+        -----------------------------------------------------
+        |                                                   |
++------------------+                          +------------------+
+|     Agent A      |                          |     Agent B      |
+|------------------|                          |------------------|
+| Driver A         |                          | Driver B         |
+| Monitor A        |                          | Monitor B        |
++---------+--------+                          +---------+--------+
+          |                                             |
+          +----------------------+-----------------------+
+                                 |
+                           +-----+------+
+                           |    Env     |
+                           |------------|
+                           | Scoreboard |
+                           | Coverage   |
+                           +------------+
+\end{verbatim}
+
+\section{Coverage Model}
+Coverage includes operand bins, pattern bins, overflow bins, illegal bins, temporal bins, and
+cross coverage. Threshold gating requires 75\% minimum coverage.
+
+\section{Regression}
+Regression is executed using:
+\begin{verbatim}
+./tools/run_regression.sh
+\end{verbatim}
+
+\section{Waveform Generation}
+Waveforms are enabled using:
+\begin{verbatim}
+export VERILATOR_TRACE=1
+\end{verbatim}
+
+Waveforms appear in:
+\begin{verbatim}
+sim_build/dump.vcd
+\end{verbatim}
+
+\end{document}
+

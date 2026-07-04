@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - rtl/rtl/top_level.sv</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="title">LCOV - code coverage report</td></tr>
+            <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+            <tr>
+              <td width="100%">
+                <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="10%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">rtl/rtl</a> - top_level.sv<span style="font-size: 80%;"> (source / <a href="top_level.sv.func-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="5%"></td>
+            <td width="5%" class="headerCovTableHead">Coverage</td>
+            <td width="5%" class="headerCovTableHead" title="Covered + Uncovered code">Total</td>
+            <td width="5%" class="headerCovTableHead" title="Exercised code only">Hit</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntryHi">100.0&nbsp;%</td>
+            <td class="headerCovTableEntry">30</td>
+            <td class="headerCovTableEntry">30</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test Date:</td>
+            <td class="headerValue">2026-07-04 14:18:02</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntryHi">-</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">0</td>
+          </tr>
+                  <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+          </table>
+
+          <table cellpadding=0 cellspacing=0 border=0>
+            <tr>
+              <td><br></td>
+            </tr>
+            <tr>
+              <td>
+<pre class="sourceHeading">            Line data    Source code</pre>
+<pre class="source">
+<span id="L1"><span class="lineNum">       1</span>              : </span>
+<span id="L2"><span class="lineNum">       2</span>              : </span>
+<span id="L3"><span class="lineNum">       3</span>              : module top_level (</span>
+<span id="L4"><span class="lineNum">       4</span> <span class="tlaGNC tlaBgGNC">        6412 :     input  logic       clk,</span></span>
+<span id="L5"><span class="lineNum">       5</span>              : </span>
+<span id="L6"><span class="lineNum">       6</span>              :     // Channel A</span>
+<span id="L7"><span class="lineNum">       7</span> <span class="tlaGNC">          28 :     input  logic       rst_A,</span></span>
+<span id="L8"><span class="lineNum">       8</span> <span class="tlaGNC">        1847 :     input  logic       valid_in_A,</span></span>
+<span id="L9"><span class="lineNum">       9</span> <span class="tlaGNC">         716 :     input  logic [7:0] a_A,</span></span>
+<span id="L10"><span class="lineNum">      10</span> <span class="tlaGNC">         748 :     input  logic [7:0] b_A,</span></span>
+<span id="L11"><span class="lineNum">      11</span> <span class="tlaGNC">         755 :     output logic [8:0] sum_async_A,</span></span>
+<span id="L12"><span class="lineNum">      12</span> <span class="tlaGNC">         473 :     output logic [8:0] sum_sync_A,</span></span>
+<span id="L13"><span class="lineNum">      13</span>              : </span>
+<span id="L14"><span class="lineNum">      14</span>              :     // Channel B</span>
+<span id="L15"><span class="lineNum">      15</span> <span class="tlaGNC">          30 :     input  logic       rst_B,</span></span>
+<span id="L16"><span class="lineNum">      16</span> <span class="tlaGNC">        1370 :     input  logic       valid_in_B,</span></span>
+<span id="L17"><span class="lineNum">      17</span> <span class="tlaGNC">         593 :     input  logic [7:0] a_B,</span></span>
+<span id="L18"><span class="lineNum">      18</span> <span class="tlaGNC">         624 :     input  logic [7:0] b_B,</span></span>
+<span id="L19"><span class="lineNum">      19</span> <span class="tlaGNC">         617 :     output logic [8:0] sum_async_B,</span></span>
+<span id="L20"><span class="lineNum">      20</span> <span class="tlaGNC">         341 :     output logic [8:0] sum_sync_B</span></span>
+<span id="L21"><span class="lineNum">      21</span>              : );</span>
+<span id="L22"><span class="lineNum">      22</span>              : </span>
+<span id="L23"><span class="lineNum">      23</span>              :     // Channel A synchronous accumulator</span>
+<span id="L24"><span class="lineNum">      24</span> <span class="tlaGNC">        6412 :     always_ff @(posedge clk) begin</span></span>
+<span id="L25"><span class="lineNum">      25</span> <span class="tlaGNC">          38 :         if (rst_A)</span></span>
+<span id="L26"><span class="lineNum">      26</span> <span class="tlaGNC">          38 :             sum_sync_A &lt;= '0;</span></span>
+<span id="L27"><span class="lineNum">      27</span> <span class="tlaGNC">        4503 :         else if (valid_in_A)</span></span>
+<span id="L28"><span class="lineNum">      28</span> <span class="tlaGNC">        1871 :             sum_sync_A &lt;= sum_sync_A + b_A;</span></span>
+<span id="L29"><span class="lineNum">      29</span>              :     end</span>
+<span id="L30"><span class="lineNum">      30</span>              : </span>
+<span id="L31"><span class="lineNum">      31</span>              :     assign sum_async_A = a_A + b_A;</span>
+<span id="L32"><span class="lineNum">      32</span>              : </span>
+<span id="L33"><span class="lineNum">      33</span>              :     // Channel B synchronous accumulator</span>
+<span id="L34"><span class="lineNum">      34</span> <span class="tlaGNC">        6412 :     always_ff @(posedge clk) begin</span></span>
+<span id="L35"><span class="lineNum">      35</span> <span class="tlaGNC">          38 :         if (rst_B)</span></span>
+<span id="L36"><span class="lineNum">      36</span> <span class="tlaGNC">          38 :             sum_sync_B &lt;= '0;</span></span>
+<span id="L37"><span class="lineNum">      37</span> <span class="tlaGNC">        4983 :         else if (valid_in_B)</span></span>
+<span id="L38"><span class="lineNum">      38</span> <span class="tlaGNC">        1391 :             sum_sync_B &lt;= sum_sync_B + b_B;</span></span>
+<span id="L39"><span class="lineNum">      39</span>              :     end</span>
+<span id="L40"><span class="lineNum">      40</span>              : </span>
+<span id="L41"><span class="lineNum">      41</span>              :     assign sum_async_B = a_B + b_B;</span>
+<span id="L42"><span class="lineNum">      42</span>              : </span>
+<span id="L43"><span class="lineNum">      43</span> <span class="tlaGNC">          11 :     initial begin</span></span>
+<span id="L44"><span class="lineNum">      44</span> <span class="tlaGNC">          11 :         $display(&quot;Time | rst_A| valid_in_A | a_A | b_A |sum_async_A | sum_sync_A |rst_B | valid_in_B| a_B | b_B  | sum_async_B | sum_sync_B   &quot;);</span></span>
+<span id="L45"><span class="lineNum">      45</span> <span class="tlaGNC">          11 :         $monitor(&quot;%4t  |  %b  |  %b        | %0d | %0d |    %0d     |   %0d      | %b   |    %b     | %0d | %0d  |    %0d      |   %0d &quot;,</span></span>
+<span id="L46"><span class="lineNum">      46</span> <span class="tlaGNC">          11 :                  $time, rst_A, valid_in_A, a_A, b_A, sum_async_A,sum_sync_A, rst_B, valid_in_B, a_B, b_B, sum_async_B, sum_sync_B);</span></span>
+<span id="L47"><span class="lineNum">      47</span>              :     end</span>
+<span id="L48"><span class="lineNum">      48</span>              : </span>
+<span id="L49"><span class="lineNum">      49</span> <span class="tlaGNC">          11 :     initial begin</span></span>
+<span id="L50"><span class="lineNum">      50</span> <span class="tlaGNC">          11 :         $dumpfile(&quot;dump.vcd&quot;);</span></span>
+<span id="L51"><span class="lineNum">      51</span> <span class="tlaGNC">          11 :         $dumpvars(1, top_level.sv);</span></span>
+<span id="L52"><span class="lineNum">      52</span>              :     end</span>
+<span id="L53"><span class="lineNum">      53</span>              : </span>
+<span id="L54"><span class="lineNum">      54</span>              : endmodule</span>
+<span id="L55"><span class="lineNum">      55</span>              : </span>
+<span id="L56"><span class="lineNum">      56</span>              : </span>
+        </pre>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+            <tr><td class="versionInfo">Generated by: <a href="https://github.com//linux-test-project/lcov" target="_parent">LCOV version 2.0-1</a></td></tr>
+          </table>
+          <br>
+
+</body>
+</html>

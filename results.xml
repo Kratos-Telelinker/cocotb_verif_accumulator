@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1783196282" />
+    <testcase name="cross_closure" classname="sim.tests.test_cross_closure" file="/home/bdballa/cocotb_projects/cocotb_modified3/sim/tests/test_cross_closure.py" lineno="17" time="0.10163712501525879" sim_time_ns="2481.0" ratio_time="24410.371698604493" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1783196275" />
+    <testcase name="test_basic" classname="sim.tests.test_smoke" file="/home/bdballa/cocotb_projects/cocotb_modified3/sim/tests/test_smoke.py" lineno="8" time="0.0008718967437744141" sim_time_ns="40.0" ratio_time="45876.992070002736" />
+  </testsuite>
+</testsuites>

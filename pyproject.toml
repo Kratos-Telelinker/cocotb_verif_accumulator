@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "dual_adder_cocotb_uvm"
+version = "0.1.0"
+
+[tool.pytest.ini_options]
+testpaths = ["sim/tests"]
+addopts = "-v"

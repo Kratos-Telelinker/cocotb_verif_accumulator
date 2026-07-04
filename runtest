@@ -1,0 +1,9 @@
+unctional Coverage HTML: func_cov_html/index.html
+Dashboard:               dashboard_html/index.html
+
+(py311) bdballa@kratos:~/cocotb_projects/cocotb_modified3$ find . -name "*.pyc" -delete
+(py311) bdballa@kratos:~/cocotb_projects/cocotb_modified3$ find . -name "__pycache__" -type d -exec rm -rf {} +
+(py311) bdballa@kratos:~/cocotb_projects/cocotb_modified3$ make clean
+(py311) bdballa@kratos:~/cocotb_projects/cocotb_modified3$ ./tools/run_regression.sh
+
+
