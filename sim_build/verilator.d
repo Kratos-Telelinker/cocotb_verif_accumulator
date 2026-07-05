@@ -1,5 +1,5 @@
 verilator.o: \
- /home/bdballa/cocotb_projects/cocotb_modified3/py311/lib/python3.11/site-packages/cocotb/share/lib/verilator/verilator.cpp \
+ /home/bdballa/cocotb_projects/cocotb_verif_accumulator/py311/lib/python3.11/site-packages/cocotb/share/lib/verilator/verilator.cpp \
  Vtop.h /usr/local/share/verilator/include/verilated.h \
  /usr/local/share/verilator/include/verilated_config.h \
  /usr/local/share/verilator/include/verilatedos.h \

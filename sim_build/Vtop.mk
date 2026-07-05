@@ -40,7 +40,7 @@ VM_USER_CFLAGS = \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \
-  -Wl,-rpath,/home/bdballa/cocotb_projects/cocotb_modified3/py311/lib/python3.11/site-packages/cocotb/libs -L/home/bdballa/cocotb_projects/cocotb_modified3/py311/lib/python3.11/site-packages/cocotb/libs -lcocotbvpi_verilator \
+  -Wl,-rpath,/home/bdballa/cocotb_projects/cocotb_verif_accumulator/py311/lib/python3.11/site-packages/cocotb/libs -L/home/bdballa/cocotb_projects/cocotb_verif_accumulator/py311/lib/python3.11/site-packages/cocotb/libs -lcocotbvpi_verilator \
 
 # User .cpp files (from .cpp's on Verilator command line)
 VM_USER_CLASSES = \
@@ -60,7 +60,7 @@ include $(VERILATOR_ROOT)/include/verilated.mk
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-verilator.o: /home/bdballa/cocotb_projects/cocotb_modified3/py311/lib/python3.11/site-packages/cocotb/share/lib/verilator/verilator.cpp 
+verilator.o: /home/bdballa/cocotb_projects/cocotb_verif_accumulator/py311/lib/python3.11/site-packages/cocotb/share/lib/verilator/verilator.cpp 
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
 
 ### Link rules... (from --exe)
