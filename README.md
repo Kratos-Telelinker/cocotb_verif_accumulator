@@ -180,6 +180,28 @@ Ensure `pkg-config` is installed.
 
 This project is provided as-is for personal development and experimentation.
 -----------------------------------------------------------------------------
+Why your sequence caused the issue
+Your exact steps:
+
+Copied entire project to Windows
+
+Created a local Git repo on Windows
+
+Pushed everything (including py311 venv) to GitHub
+
+Cloned repo into Linux
+
+Linux received Windows venv with missing execute bits
+
+Regression script tried to run ./py311/bin/python3
+
+Linux said “Permission denied”
+
+You fixed it with chmod -R u+x py311
+
+This is exactly what happens when a Windows venv is cloned into Linux.
+
+
 The correct long‑term fix
 Never commit virtual environments to Git.
 Instead:
@@ -217,4 +239,22 @@ no more execute‑bit problems
 ⭐ Should you keep using chmod -R u+x py311?
 Only as a temporary fix.
 
+Requirements.txt 
+# Python packages for cocotb_modified3 (Python 3.11)
 
+cocotb==2.0.1
+cocotb-test==0.2.2
+cocotb-coverage==1.1.0
+
+pytest==7.4.4
+pytest-xdist==3.5.0
+
+find-libpython==0.4.0
+setuptools>=68
+wheel>=0.42
+
+# Optional but recommended
+pyuvm==2.8.0
+numpy==1.26.4
+rich==13.7.1
+packaging==24.0
