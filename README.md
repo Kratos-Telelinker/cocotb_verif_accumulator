@@ -179,7 +179,42 @@ Ensure `pkg-config` is installed.
 ## 11. License
 
 This project is provided as-is for personal development and experimentation.
+-----------------------------------------------------------------------------
+The correct long‑term fix
+Never commit virtual environments to Git.
+Instead:
 
+Add this to .gitignore:
 
+Code
+py311/
+venv/
+.env/
+Delete the venv from the repo:
+
+bash
+git rm -r --cached py311
+git commit -m "Remove venv from repo"
+git push
+Recreate the venv on Linux:
+
+bash
+python3 -m venv py311
+source py311/bin/activate
+pip install -r requirements.txt
+This gives you:
+
+correct Linux permissions
+
+correct Linux binaries
+
+correct cocotb-config
+
+correct Makefile paths
+
+no more execute‑bit problems
+
+⭐ Should you keep using chmod -R u+x py311?
+Only as a temporary fix.
 
 
