@@ -4,7 +4,6 @@
 #include "Vtop__pch.h"
 #include "Vtop.h"
 #include "Vtop___024root.h"
-#include "Vtop___024unit.h"
 
 // FUNCTIONS
 Vtop__Syms::~Vtop__Syms()
@@ -47,18 +46,15 @@ Vtop__Syms::Vtop__Syms(VerilatedContext* contextp, const char* namep, Vtop* mode
     , __Vm_modelp{modelp}
     // Setup module instances
     , TOP{this, namep}
-    , TOP____024unit{this, Verilated::catName(namep, "$unit")}
 {
         // Check resources
-        Verilated::stackCheck(27);
+        Verilated::stackCheck(33);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-9);
     _vm_contextp__->timeprecision(-12);
     // Setup each module's pointers to their submodules
-    TOP.__PVT____024unit = &TOP____024unit;
     // Setup each module's pointer back to symbol table (for public functions)
     TOP.__Vconfigure(true);
-    TOP____024unit.__Vconfigure(true);
     // Setup scopes
     __Vscope_TOP.configure(this, name(), "TOP", "TOP", "<null>", 0, VerilatedScope::SCOPE_OTHER);
     __Vscope_dut_wrapper.configure(this, name(), "dut_wrapper", "dut_wrapper", "dut_wrapper", -9, VerilatedScope::SCOPE_MODULE);

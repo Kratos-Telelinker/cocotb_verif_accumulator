@@ -1,0 +1,61 @@
+{
+    // -----------------------------
+    // SystemVerilog Language Server
+    // -----------------------------
+    "svlangserver.includePaths": [
+        "rtl"
+    ],
+    "svlangserver.verilog.formatter": "verible",
+    "svlangserver.lint.enabled": true,
+    "svlangserver.lint.verilator.enabled": true,
+    "svlangserver.lint.verible.enabled": true,
+
+    // Tell VS Code that ALL RTL files belong to the project
+    "svlangserver.extraSources": [
+        "rtl/top_level.sv",
+        "rtl/dut_wrapper.sv"
+    ],
+
+    // -----------------------------
+    // Verible Linter
+    // -----------------------------
+    "verilog.linting.enabled": true,
+    "verilog.linting.run": "onType",
+    "verilog.linting.verible.rules": "all",
+    "verilog.linting.includePaths": [
+        "rtl"
+    ],
+
+    // -----------------------------
+    // Verilator Lint Integration
+    // -----------------------------
+    "verilog.linting.verilator.enabled": true,
+    "verilog.linting.verilator.arguments": [
+        "--lint-only",
+        "-Wall",
+        "-Irtl"
+    ],
+
+    // -----------------------------
+    // File Associations
+    // -----------------------------
+    "files.associations": {
+        "*.sv": "systemverilog",
+        "*.svh": "systemverilog",
+        "*.v": "verilog"
+    },
+
+    // -----------------------------
+    // Workspace Behavior
+    // -----------------------------
+    "search.exclude": {
+        "sim_build": true,
+        "waves": true,
+        "logs": true
+    },
+    "files.exclude": {
+        "sim_build": true,
+        "waves": true,
+        "logs": true
+    }
+}

@@ -49,7 +49,7 @@ async def randomized_resets(dut):
     await agent_b.driver.send(AdderTransaction(a=0, b=0, valid_in=0))
     await Timer(1, "ns")
 
-    for _ in range(2000):
+    for _ in range(20000):
 
         await agent_a.driver.send(random_txn())
         await agent_b.driver.send(random_txn())

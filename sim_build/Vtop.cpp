@@ -23,7 +23,6 @@ Vtop::Vtop(VerilatedContext* _vcontextp__, const char* _vcname__)
     , sum_sync_A{vlSymsp->TOP.sum_sync_A}
     , sum_async_B{vlSymsp->TOP.sum_async_B}
     , sum_sync_B{vlSymsp->TOP.sum_sync_B}
-    , __PVT____024unit{vlSymsp->TOP.__PVT____024unit}
     , rootp{&(vlSymsp->TOP)}
 {
     // Register model with the context

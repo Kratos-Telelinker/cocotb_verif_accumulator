@@ -7,24 +7,17 @@
 
 #include "verilated.h"
 #include "verilated_cov.h"
-class Vtop___024unit;
 
 
 class Vtop__Syms;
 
 class alignas(VL_CACHE_LINE_BYTES) Vtop___024root final : public VerilatedModule {
   public:
-    // CELLS
-    Vtop___024unit* __PVT____024unit;
 
     // DESIGN SPECIFIC STATE
     // Anonymous structures to workaround compiler member-count bugs
     struct {
         CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__clk;
-        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__rst_A;
-        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__valid_in_A;
-        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__rst_B;
-        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__valid_in_B;
         VL_IN8(clk,0,0);
         VL_IN8(rst_A,0,0);
         VL_IN8(valid_in_A,0,0);
@@ -52,8 +45,12 @@ class alignas(VL_CACHE_LINE_BYTES) Vtop___024root final : public VerilatedModule
         CData/*0:0*/ dut_wrapper__DOT____Vtogcov__valid_in_B;
         CData/*7:0*/ dut_wrapper__DOT____Vtogcov__a_B;
         CData/*7:0*/ dut_wrapper__DOT____Vtogcov__b_B;
+        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__rst_A;
+        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__valid_in_A;
         CData/*7:0*/ dut_wrapper__DOT__u_top_level__DOT__a_A;
         CData/*7:0*/ dut_wrapper__DOT__u_top_level__DOT__b_A;
+        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__rst_B;
+        CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT__valid_in_B;
         CData/*7:0*/ dut_wrapper__DOT__u_top_level__DOT__a_B;
         CData/*7:0*/ dut_wrapper__DOT__u_top_level__DOT__b_B;
         CData/*0:0*/ dut_wrapper__DOT__u_top_level__DOT____Vtogcov__clk;
@@ -68,15 +65,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vtop___024root final : public VerilatedModule
         CData/*0:0*/ __VstlFirstIteration;
         CData/*0:0*/ __VicoFirstIteration;
         CData/*0:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__clk__0;
-        CData/*7:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_A__0;
-        CData/*7:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_B__0;
-        CData/*7:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_A__0;
-        CData/*7:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_B__0;
-        CData/*0:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_A__0;
-        CData/*0:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_B__0;
-        CData/*0:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_A__0;
-        CData/*0:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_B__0;
-        CData/*0:0*/ __VactDidInit;
         CData/*0:0*/ __VactContinue;
         VL_OUT16(sum_async_A,8,0);
         VL_OUT16(sum_sync_A,8,0);
@@ -84,8 +72,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vtop___024root final : public VerilatedModule
         VL_OUT16(sum_sync_B,8,0);
         SData/*8:0*/ dut_wrapper__DOT__sum_async_A;
         SData/*8:0*/ dut_wrapper__DOT__sum_sync_A;
-    };
-    struct {
         SData/*8:0*/ dut_wrapper__DOT__sum_async_B;
         SData/*8:0*/ dut_wrapper__DOT__sum_sync_B;
         SData/*8:0*/ dut_wrapper__DOT____Vtogcov__sum_async_A;
@@ -95,23 +81,19 @@ class alignas(VL_CACHE_LINE_BYTES) Vtop___024root final : public VerilatedModule
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT__sum_async_A;
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT__sum_async_B;
+    };
+    struct {
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_async_A;
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_sync_A;
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_async_B;
         SData/*8:0*/ dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_sync_B;
-        SData/*8:0*/ __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
-        SData/*8:0*/ __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
-        SData/*8:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_A__0;
-        SData/*8:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_B__0;
-        SData/*8:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A__0;
-        SData/*8:0*/ __Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B__0;
         IData/*31:0*/ __VactIterCount;
     };
     VlTriggerVec<1> __VstlTriggered;
     VlTriggerVec<1> __VicoTriggered;
-    VlTriggerVec<13> __VactTriggered;
-    VlTriggerVec<13> __VnbaTriggered;
+    VlTriggerVec<1> __VactTriggered;
+    VlTriggerVec<1> __VnbaTriggered;
 
     // INTERNAL VARIABLES
     Vtop__Syms* const vlSymsp;

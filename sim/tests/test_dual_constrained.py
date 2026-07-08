@@ -28,7 +28,8 @@ async def test_dual_constrained(dut):
     cocotb.log.info("Reset complete, beginning constrained stimulus")
 
     # Constrained random testing loop
-    for i in range(20):
+    cocotb.log.info("\nFirst 25 Iterations of Loop Displayed for Debugging\n")
+    for i in range(2000):
 
         # Constrained stimulus for A
         a_A = random.randint(0, 5)
@@ -48,17 +49,19 @@ async def test_dual_constrained(dut):
 
         await RisingEdge(dut.clk)
 
-        cocotb.log.info(
-            f"RAW DUT: "
-            f"a_A={int(dut.a_A.value)} "
-            f"b_A={int(dut.b_A.value)} "
-            f"sum_async_A={int(dut.sum_async_A.value)} "
-            f"valid_in_A={int(dut.valid_in_A.value)} | "
-            f"a_B={int(dut.a_B.value)} "
-            f"b_B={int(dut.b_B.value)} "
-            f"sum_async_B={int(dut.sum_async_B.value)} "
-            f"valid_in_B={int(dut.valid_in_B.value)}"
-        )
+        
+        if i <= 25 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+            )
 
         await Timer(1, unit="ns")
 

@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1783289055" />
-    <testcase name="cross_closure" classname="sim.tests.test_cross_closure" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_cross_closure.py" lineno="17" time="0.1051328182220459" sim_time_ns="2481.0" ratio_time="23598.720570393165" />
+    <property name="random_seed" value="1783528153" />
+    <testcase name="cross_closure" classname="sim.tests.test_cross_closure" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_cross_closure.py" lineno="17" time="0.09615111351013184" sim_time_ns="2481.0" ratio_time="25803.13331200857" />
   </testsuite>
 </testsuites>

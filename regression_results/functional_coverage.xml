@@ -1,534 +1,534 @@
-<top abs_name="top" size="484" coverage="66" cover_percentage="13.64">
-  <adder size="484" coverage="66" cover_percentage="13.64" abs_name="top.adder">
+<top abs_name="top" size="484" coverage="468" cover_percentage="96.69">
+  <adder size="484" coverage="468" cover_percentage="96.69" abs_name="top.adder">
     <valid_in size="2" coverage="2" cover_percentage="100.0" abs_name="top.adder.valid_in" weight="1" at_least="1">
-      <bin0 bin="0" hits="40" abs_name="top.adder.valid_in.bin0" />
-      <bin1 bin="1" hits="30" abs_name="top.adder.valid_in.bin1" />
+      <bin0 bin="0" hits="256" abs_name="top.adder.valid_in.bin0" />
+      <bin1 bin="1" hits="242" abs_name="top.adder.valid_in.bin1" />
     </valid_in>
     <rst size="2" coverage="2" cover_percentage="100.0" abs_name="top.adder.rst" weight="1" at_least="1">
-      <bin0 bin="0" hits="64" abs_name="top.adder.rst.bin0" />
-      <bin1 bin="1" hits="6" abs_name="top.adder.rst.bin1" />
+      <bin0 bin="0" hits="496" abs_name="top.adder.rst.bin0" />
+      <bin1 bin="1" hits="2" abs_name="top.adder.rst.bin1" />
     </rst>
-    <a size="11" coverage="6" cover_percentage="54.55" abs_name="top.adder.a" weight="1" at_least="1">
-      <bin0 bin="0" hits="22" abs_name="top.adder.a.bin0" />
-      <bin1 bin="1" hits="1" abs_name="top.adder.a.bin1" />
-      <bin2 bin="2" hits="0" abs_name="top.adder.a.bin2" />
-      <bin3 bin="3" hits="0" abs_name="top.adder.a.bin3" />
-      <bin4 bin="4" hits="0" abs_name="top.adder.a.bin4" />
-      <bin5 bin="8" hits="0" abs_name="top.adder.a.bin5" />
-      <bin6 bin="16" hits="0" abs_name="top.adder.a.bin6" />
-      <bin7 bin="32" hits="2" abs_name="top.adder.a.bin7" />
-      <bin8 bin="64" hits="2" abs_name="top.adder.a.bin8" />
-      <bin9 bin="128" hits="1" abs_name="top.adder.a.bin9" />
-      <bin10 bin="255" hits="6" abs_name="top.adder.a.bin10" />
+    <a size="11" coverage="11" cover_percentage="100.0" abs_name="top.adder.a" weight="1" at_least="1">
+      <bin0 bin="0" hits="49" abs_name="top.adder.a.bin0" />
+      <bin1 bin="1" hits="44" abs_name="top.adder.a.bin1" />
+      <bin2 bin="2" hits="44" abs_name="top.adder.a.bin2" />
+      <bin3 bin="3" hits="44" abs_name="top.adder.a.bin3" />
+      <bin4 bin="4" hits="44" abs_name="top.adder.a.bin4" />
+      <bin5 bin="8" hits="44" abs_name="top.adder.a.bin5" />
+      <bin6 bin="16" hits="44" abs_name="top.adder.a.bin6" />
+      <bin7 bin="32" hits="44" abs_name="top.adder.a.bin7" />
+      <bin8 bin="64" hits="44" abs_name="top.adder.a.bin8" />
+      <bin9 bin="128" hits="44" abs_name="top.adder.a.bin9" />
+      <bin10 bin="255" hits="53" abs_name="top.adder.a.bin10" />
     </a>
-    <b size="11" coverage="3" cover_percentage="27.27" abs_name="top.adder.b" weight="1" at_least="1">
-      <bin0 bin="0" hits="24" abs_name="top.adder.b.bin0" />
-      <bin1 bin="1" hits="2" abs_name="top.adder.b.bin1" />
-      <bin2 bin="2" hits="0" abs_name="top.adder.b.bin2" />
-      <bin3 bin="3" hits="0" abs_name="top.adder.b.bin3" />
-      <bin4 bin="4" hits="0" abs_name="top.adder.b.bin4" />
-      <bin5 bin="8" hits="0" abs_name="top.adder.b.bin5" />
-      <bin6 bin="16" hits="0" abs_name="top.adder.b.bin6" />
-      <bin7 bin="32" hits="0" abs_name="top.adder.b.bin7" />
-      <bin8 bin="64" hits="0" abs_name="top.adder.b.bin8" />
-      <bin9 bin="128" hits="0" abs_name="top.adder.b.bin9" />
-      <bin10 bin="255" hits="3" abs_name="top.adder.b.bin10" />
+    <b size="11" coverage="11" cover_percentage="100.0" abs_name="top.adder.b" weight="1" at_least="1">
+      <bin0 bin="0" hits="49" abs_name="top.adder.b.bin0" />
+      <bin1 bin="1" hits="44" abs_name="top.adder.b.bin1" />
+      <bin2 bin="2" hits="44" abs_name="top.adder.b.bin2" />
+      <bin3 bin="3" hits="44" abs_name="top.adder.b.bin3" />
+      <bin4 bin="4" hits="44" abs_name="top.adder.b.bin4" />
+      <bin5 bin="8" hits="44" abs_name="top.adder.b.bin5" />
+      <bin6 bin="16" hits="44" abs_name="top.adder.b.bin6" />
+      <bin7 bin="32" hits="44" abs_name="top.adder.b.bin7" />
+      <bin8 bin="64" hits="44" abs_name="top.adder.b.bin8" />
+      <bin9 bin="128" hits="44" abs_name="top.adder.b.bin9" />
+      <bin10 bin="255" hits="53" abs_name="top.adder.b.bin10" />
     </b>
     <sum_sync size="5" coverage="3" cover_percentage="60.0" abs_name="top.adder.sum_sync" weight="1" at_least="1">
-      <bin0 bin="0" hits="24" abs_name="top.adder.sum_sync.bin0" />
-      <bin1 bin="1" hits="1" abs_name="top.adder.sum_sync.bin1" />
-      <bin2 bin="2" hits="0" abs_name="top.adder.sum_sync.bin2" />
-      <bin3 bin="255" hits="1" abs_name="top.adder.sum_sync.bin3" />
+      <bin0 bin="0" hits="11" abs_name="top.adder.sum_sync.bin0" />
+      <bin1 bin="1" hits="12" abs_name="top.adder.sum_sync.bin1" />
+      <bin2 bin="2" hits="12" abs_name="top.adder.sum_sync.bin2" />
+      <bin3 bin="255" hits="0" abs_name="top.adder.sum_sync.bin3" />
       <bin4 bin="511" hits="0" abs_name="top.adder.sum_sync.bin4" />
     </sum_sync>
-    <valid_rst_illegal size="2" coverage="2" cover_percentage="100.0" abs_name="top.adder.valid_rst_illegal" weight="1" at_least="1">
-      <bin0 bin="0" hits="68" abs_name="top.adder.valid_rst_illegal.bin0" />
-      <bin1 bin="1" hits="2" abs_name="top.adder.valid_rst_illegal.bin1" />
+    <valid_rst_illegal size="2" coverage="1" cover_percentage="50.0" abs_name="top.adder.valid_rst_illegal" weight="1" at_least="1">
+      <bin0 bin="0" hits="498" abs_name="top.adder.valid_rst_illegal.bin0" />
+      <bin1 bin="1" hits="0" abs_name="top.adder.valid_rst_illegal.bin1" />
     </valid_rst_illegal>
-    <A size="143" coverage="13" cover_percentage="9.09" abs_name="top.adder.A">
-      <a size="11" coverage="5" cover_percentage="45.45" abs_name="top.adder.A.a" weight="1" at_least="1">
-        <bin0 bin="0" hits="6" abs_name="top.adder.A.a.bin0" />
-        <bin1 bin="1" hits="1" abs_name="top.adder.A.a.bin1" />
-        <bin2 bin="2" hits="0" abs_name="top.adder.A.a.bin2" />
-        <bin3 bin="3" hits="0" abs_name="top.adder.A.a.bin3" />
-        <bin4 bin="4" hits="0" abs_name="top.adder.A.a.bin4" />
-        <bin5 bin="8" hits="0" abs_name="top.adder.A.a.bin5" />
-        <bin6 bin="16" hits="0" abs_name="top.adder.A.a.bin6" />
-        <bin7 bin="32" hits="2" abs_name="top.adder.A.a.bin7" />
-        <bin8 bin="64" hits="0" abs_name="top.adder.A.a.bin8" />
-        <bin9 bin="128" hits="1" abs_name="top.adder.A.a.bin9" />
-        <bin10 bin="255" hits="6" abs_name="top.adder.A.a.bin10" />
+    <A size="143" coverage="143" cover_percentage="100.0" abs_name="top.adder.A">
+      <a size="11" coverage="11" cover_percentage="100.0" abs_name="top.adder.A.a" weight="1" at_least="1">
+        <bin0 bin="0" hits="24" abs_name="top.adder.A.a.bin0" />
+        <bin1 bin="1" hits="22" abs_name="top.adder.A.a.bin1" />
+        <bin2 bin="2" hits="22" abs_name="top.adder.A.a.bin2" />
+        <bin3 bin="3" hits="22" abs_name="top.adder.A.a.bin3" />
+        <bin4 bin="4" hits="22" abs_name="top.adder.A.a.bin4" />
+        <bin5 bin="8" hits="22" abs_name="top.adder.A.a.bin5" />
+        <bin6 bin="16" hits="22" abs_name="top.adder.A.a.bin6" />
+        <bin7 bin="32" hits="22" abs_name="top.adder.A.a.bin7" />
+        <bin8 bin="64" hits="22" abs_name="top.adder.A.a.bin8" />
+        <bin9 bin="128" hits="22" abs_name="top.adder.A.a.bin9" />
+        <bin10 bin="255" hits="27" abs_name="top.adder.A.a.bin10" />
       </a>
-      <b size="11" coverage="3" cover_percentage="27.27" abs_name="top.adder.A.b" weight="1" at_least="1">
-        <bin0 bin="0" hits="8" abs_name="top.adder.A.b.bin0" />
-        <bin1 bin="1" hits="2" abs_name="top.adder.A.b.bin1" />
-        <bin2 bin="2" hits="0" abs_name="top.adder.A.b.bin2" />
-        <bin3 bin="3" hits="0" abs_name="top.adder.A.b.bin3" />
-        <bin4 bin="4" hits="0" abs_name="top.adder.A.b.bin4" />
-        <bin5 bin="8" hits="0" abs_name="top.adder.A.b.bin5" />
-        <bin6 bin="16" hits="0" abs_name="top.adder.A.b.bin6" />
-        <bin7 bin="32" hits="0" abs_name="top.adder.A.b.bin7" />
-        <bin8 bin="64" hits="0" abs_name="top.adder.A.b.bin8" />
-        <bin9 bin="128" hits="0" abs_name="top.adder.A.b.bin9" />
-        <bin10 bin="255" hits="3" abs_name="top.adder.A.b.bin10" />
+      <b size="11" coverage="11" cover_percentage="100.0" abs_name="top.adder.A.b" weight="1" at_least="1">
+        <bin0 bin="0" hits="24" abs_name="top.adder.A.b.bin0" />
+        <bin1 bin="1" hits="22" abs_name="top.adder.A.b.bin1" />
+        <bin2 bin="2" hits="22" abs_name="top.adder.A.b.bin2" />
+        <bin3 bin="3" hits="22" abs_name="top.adder.A.b.bin3" />
+        <bin4 bin="4" hits="22" abs_name="top.adder.A.b.bin4" />
+        <bin5 bin="8" hits="22" abs_name="top.adder.A.b.bin5" />
+        <bin6 bin="16" hits="22" abs_name="top.adder.A.b.bin6" />
+        <bin7 bin="32" hits="22" abs_name="top.adder.A.b.bin7" />
+        <bin8 bin="64" hits="22" abs_name="top.adder.A.b.bin8" />
+        <bin9 bin="128" hits="22" abs_name="top.adder.A.b.bin9" />
+        <bin10 bin="255" hits="27" abs_name="top.adder.A.b.bin10" />
       </b>
-      <cross_a_b size="121" coverage="5" cover_percentage="4.13" abs_name="top.adder.A.cross_a_b" weight="1" at_least="1">
-        <bin0 bin="(0, 0)" hits="6" abs_name="top.adder.A.cross_a_b.bin0" />
-        <bin1 bin="(0, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin1" />
-        <bin2 bin="(0, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin2" />
-        <bin3 bin="(0, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin3" />
-        <bin4 bin="(0, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin4" />
-        <bin5 bin="(0, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin5" />
-        <bin6 bin="(0, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin6" />
-        <bin7 bin="(0, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin7" />
-        <bin8 bin="(0, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin8" />
-        <bin9 bin="(0, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin9" />
-        <bin10 bin="(0, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin10" />
-        <bin11 bin="(1, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin11" />
-        <bin12 bin="(1, 1)" hits="1" abs_name="top.adder.A.cross_a_b.bin12" />
-        <bin13 bin="(1, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin13" />
-        <bin14 bin="(1, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin14" />
-        <bin15 bin="(1, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin15" />
-        <bin16 bin="(1, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin16" />
-        <bin17 bin="(1, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin17" />
-        <bin18 bin="(1, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin18" />
-        <bin19 bin="(1, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin19" />
-        <bin20 bin="(1, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin20" />
-        <bin21 bin="(1, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin21" />
-        <bin22 bin="(2, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin22" />
-        <bin23 bin="(2, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin23" />
-        <bin24 bin="(2, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin24" />
-        <bin25 bin="(2, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin25" />
-        <bin26 bin="(2, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin26" />
-        <bin27 bin="(2, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin27" />
-        <bin28 bin="(2, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin28" />
-        <bin29 bin="(2, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin29" />
-        <bin30 bin="(2, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin30" />
-        <bin31 bin="(2, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin31" />
-        <bin32 bin="(2, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin32" />
-        <bin33 bin="(3, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin33" />
-        <bin34 bin="(3, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin34" />
-        <bin35 bin="(3, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin35" />
-        <bin36 bin="(3, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin36" />
-        <bin37 bin="(3, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin37" />
-        <bin38 bin="(3, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin38" />
-        <bin39 bin="(3, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin39" />
-        <bin40 bin="(3, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin40" />
-        <bin41 bin="(3, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin41" />
-        <bin42 bin="(3, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin42" />
-        <bin43 bin="(3, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin43" />
-        <bin44 bin="(4, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin44" />
-        <bin45 bin="(4, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin45" />
-        <bin46 bin="(4, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin46" />
-        <bin47 bin="(4, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin47" />
-        <bin48 bin="(4, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin48" />
-        <bin49 bin="(4, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin49" />
-        <bin50 bin="(4, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin50" />
-        <bin51 bin="(4, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin51" />
-        <bin52 bin="(4, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin52" />
-        <bin53 bin="(4, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin53" />
-        <bin54 bin="(4, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin54" />
-        <bin55 bin="(8, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin55" />
-        <bin56 bin="(8, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin56" />
-        <bin57 bin="(8, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin57" />
-        <bin58 bin="(8, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin58" />
-        <bin59 bin="(8, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin59" />
-        <bin60 bin="(8, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin60" />
-        <bin61 bin="(8, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin61" />
-        <bin62 bin="(8, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin62" />
-        <bin63 bin="(8, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin63" />
-        <bin64 bin="(8, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin64" />
-        <bin65 bin="(8, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin65" />
-        <bin66 bin="(16, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin66" />
-        <bin67 bin="(16, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin67" />
-        <bin68 bin="(16, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin68" />
-        <bin69 bin="(16, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin69" />
-        <bin70 bin="(16, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin70" />
-        <bin71 bin="(16, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin71" />
-        <bin72 bin="(16, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin72" />
-        <bin73 bin="(16, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin73" />
-        <bin74 bin="(16, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin74" />
-        <bin75 bin="(16, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin75" />
-        <bin76 bin="(16, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin76" />
-        <bin77 bin="(32, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin77" />
-        <bin78 bin="(32, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin78" />
-        <bin79 bin="(32, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin79" />
-        <bin80 bin="(32, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin80" />
-        <bin81 bin="(32, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin81" />
-        <bin82 bin="(32, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin82" />
-        <bin83 bin="(32, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin83" />
-        <bin84 bin="(32, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin84" />
-        <bin85 bin="(32, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin85" />
-        <bin86 bin="(32, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin86" />
-        <bin87 bin="(32, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin87" />
-        <bin88 bin="(64, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin88" />
-        <bin89 bin="(64, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin89" />
-        <bin90 bin="(64, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin90" />
-        <bin91 bin="(64, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin91" />
-        <bin92 bin="(64, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin92" />
-        <bin93 bin="(64, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin93" />
-        <bin94 bin="(64, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin94" />
-        <bin95 bin="(64, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin95" />
-        <bin96 bin="(64, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin96" />
-        <bin97 bin="(64, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin97" />
-        <bin98 bin="(64, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin98" />
-        <bin99 bin="(128, 0)" hits="0" abs_name="top.adder.A.cross_a_b.bin99" />
-        <bin100 bin="(128, 1)" hits="0" abs_name="top.adder.A.cross_a_b.bin100" />
-        <bin101 bin="(128, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin101" />
-        <bin102 bin="(128, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin102" />
-        <bin103 bin="(128, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin103" />
-        <bin104 bin="(128, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin104" />
-        <bin105 bin="(128, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin105" />
-        <bin106 bin="(128, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin106" />
-        <bin107 bin="(128, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin107" />
-        <bin108 bin="(128, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin108" />
-        <bin109 bin="(128, 255)" hits="0" abs_name="top.adder.A.cross_a_b.bin109" />
+      <cross_a_b size="121" coverage="121" cover_percentage="100.0" abs_name="top.adder.A.cross_a_b" weight="1" at_least="1">
+        <bin0 bin="(0, 0)" hits="4" abs_name="top.adder.A.cross_a_b.bin0" />
+        <bin1 bin="(0, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin1" />
+        <bin2 bin="(0, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin2" />
+        <bin3 bin="(0, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin3" />
+        <bin4 bin="(0, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin4" />
+        <bin5 bin="(0, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin5" />
+        <bin6 bin="(0, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin6" />
+        <bin7 bin="(0, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin7" />
+        <bin8 bin="(0, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin8" />
+        <bin9 bin="(0, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin9" />
+        <bin10 bin="(0, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin10" />
+        <bin11 bin="(1, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin11" />
+        <bin12 bin="(1, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin12" />
+        <bin13 bin="(1, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin13" />
+        <bin14 bin="(1, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin14" />
+        <bin15 bin="(1, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin15" />
+        <bin16 bin="(1, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin16" />
+        <bin17 bin="(1, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin17" />
+        <bin18 bin="(1, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin18" />
+        <bin19 bin="(1, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin19" />
+        <bin20 bin="(1, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin20" />
+        <bin21 bin="(1, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin21" />
+        <bin22 bin="(2, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin22" />
+        <bin23 bin="(2, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin23" />
+        <bin24 bin="(2, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin24" />
+        <bin25 bin="(2, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin25" />
+        <bin26 bin="(2, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin26" />
+        <bin27 bin="(2, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin27" />
+        <bin28 bin="(2, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin28" />
+        <bin29 bin="(2, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin29" />
+        <bin30 bin="(2, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin30" />
+        <bin31 bin="(2, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin31" />
+        <bin32 bin="(2, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin32" />
+        <bin33 bin="(3, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin33" />
+        <bin34 bin="(3, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin34" />
+        <bin35 bin="(3, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin35" />
+        <bin36 bin="(3, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin36" />
+        <bin37 bin="(3, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin37" />
+        <bin38 bin="(3, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin38" />
+        <bin39 bin="(3, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin39" />
+        <bin40 bin="(3, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin40" />
+        <bin41 bin="(3, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin41" />
+        <bin42 bin="(3, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin42" />
+        <bin43 bin="(3, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin43" />
+        <bin44 bin="(4, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin44" />
+        <bin45 bin="(4, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin45" />
+        <bin46 bin="(4, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin46" />
+        <bin47 bin="(4, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin47" />
+        <bin48 bin="(4, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin48" />
+        <bin49 bin="(4, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin49" />
+        <bin50 bin="(4, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin50" />
+        <bin51 bin="(4, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin51" />
+        <bin52 bin="(4, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin52" />
+        <bin53 bin="(4, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin53" />
+        <bin54 bin="(4, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin54" />
+        <bin55 bin="(8, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin55" />
+        <bin56 bin="(8, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin56" />
+        <bin57 bin="(8, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin57" />
+        <bin58 bin="(8, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin58" />
+        <bin59 bin="(8, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin59" />
+        <bin60 bin="(8, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin60" />
+        <bin61 bin="(8, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin61" />
+        <bin62 bin="(8, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin62" />
+        <bin63 bin="(8, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin63" />
+        <bin64 bin="(8, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin64" />
+        <bin65 bin="(8, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin65" />
+        <bin66 bin="(16, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin66" />
+        <bin67 bin="(16, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin67" />
+        <bin68 bin="(16, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin68" />
+        <bin69 bin="(16, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin69" />
+        <bin70 bin="(16, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin70" />
+        <bin71 bin="(16, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin71" />
+        <bin72 bin="(16, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin72" />
+        <bin73 bin="(16, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin73" />
+        <bin74 bin="(16, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin74" />
+        <bin75 bin="(16, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin75" />
+        <bin76 bin="(16, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin76" />
+        <bin77 bin="(32, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin77" />
+        <bin78 bin="(32, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin78" />
+        <bin79 bin="(32, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin79" />
+        <bin80 bin="(32, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin80" />
+        <bin81 bin="(32, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin81" />
+        <bin82 bin="(32, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin82" />
+        <bin83 bin="(32, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin83" />
+        <bin84 bin="(32, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin84" />
+        <bin85 bin="(32, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin85" />
+        <bin86 bin="(32, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin86" />
+        <bin87 bin="(32, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin87" />
+        <bin88 bin="(64, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin88" />
+        <bin89 bin="(64, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin89" />
+        <bin90 bin="(64, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin90" />
+        <bin91 bin="(64, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin91" />
+        <bin92 bin="(64, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin92" />
+        <bin93 bin="(64, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin93" />
+        <bin94 bin="(64, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin94" />
+        <bin95 bin="(64, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin95" />
+        <bin96 bin="(64, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin96" />
+        <bin97 bin="(64, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin97" />
+        <bin98 bin="(64, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin98" />
+        <bin99 bin="(128, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin99" />
+        <bin100 bin="(128, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin100" />
+        <bin101 bin="(128, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin101" />
+        <bin102 bin="(128, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin102" />
+        <bin103 bin="(128, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin103" />
+        <bin104 bin="(128, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin104" />
+        <bin105 bin="(128, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin105" />
+        <bin106 bin="(128, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin106" />
+        <bin107 bin="(128, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin107" />
+        <bin108 bin="(128, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin108" />
+        <bin109 bin="(128, 255)" hits="2" abs_name="top.adder.A.cross_a_b.bin109" />
         <bin110 bin="(255, 0)" hits="2" abs_name="top.adder.A.cross_a_b.bin110" />
-        <bin111 bin="(255, 1)" hits="1" abs_name="top.adder.A.cross_a_b.bin111" />
-        <bin112 bin="(255, 2)" hits="0" abs_name="top.adder.A.cross_a_b.bin112" />
-        <bin113 bin="(255, 3)" hits="0" abs_name="top.adder.A.cross_a_b.bin113" />
-        <bin114 bin="(255, 4)" hits="0" abs_name="top.adder.A.cross_a_b.bin114" />
-        <bin115 bin="(255, 8)" hits="0" abs_name="top.adder.A.cross_a_b.bin115" />
-        <bin116 bin="(255, 16)" hits="0" abs_name="top.adder.A.cross_a_b.bin116" />
-        <bin117 bin="(255, 32)" hits="0" abs_name="top.adder.A.cross_a_b.bin117" />
-        <bin118 bin="(255, 64)" hits="0" abs_name="top.adder.A.cross_a_b.bin118" />
-        <bin119 bin="(255, 128)" hits="0" abs_name="top.adder.A.cross_a_b.bin119" />
-        <bin120 bin="(255, 255)" hits="3" abs_name="top.adder.A.cross_a_b.bin120" />
+        <bin111 bin="(255, 1)" hits="2" abs_name="top.adder.A.cross_a_b.bin111" />
+        <bin112 bin="(255, 2)" hits="2" abs_name="top.adder.A.cross_a_b.bin112" />
+        <bin113 bin="(255, 3)" hits="2" abs_name="top.adder.A.cross_a_b.bin113" />
+        <bin114 bin="(255, 4)" hits="2" abs_name="top.adder.A.cross_a_b.bin114" />
+        <bin115 bin="(255, 8)" hits="2" abs_name="top.adder.A.cross_a_b.bin115" />
+        <bin116 bin="(255, 16)" hits="2" abs_name="top.adder.A.cross_a_b.bin116" />
+        <bin117 bin="(255, 32)" hits="2" abs_name="top.adder.A.cross_a_b.bin117" />
+        <bin118 bin="(255, 64)" hits="2" abs_name="top.adder.A.cross_a_b.bin118" />
+        <bin119 bin="(255, 128)" hits="2" abs_name="top.adder.A.cross_a_b.bin119" />
+        <bin120 bin="(255, 255)" hits="7" abs_name="top.adder.A.cross_a_b.bin120" />
       </cross_a_b>
     </A>
-    <B size="143" coverage="4" cover_percentage="2.8" abs_name="top.adder.B">
-      <a size="11" coverage="2" cover_percentage="18.18" abs_name="top.adder.B.a" weight="1" at_least="1">
-        <bin0 bin="0" hits="16" abs_name="top.adder.B.a.bin0" />
-        <bin1 bin="1" hits="0" abs_name="top.adder.B.a.bin1" />
-        <bin2 bin="2" hits="0" abs_name="top.adder.B.a.bin2" />
-        <bin3 bin="3" hits="0" abs_name="top.adder.B.a.bin3" />
-        <bin4 bin="4" hits="0" abs_name="top.adder.B.a.bin4" />
-        <bin5 bin="8" hits="0" abs_name="top.adder.B.a.bin5" />
-        <bin6 bin="16" hits="0" abs_name="top.adder.B.a.bin6" />
-        <bin7 bin="32" hits="0" abs_name="top.adder.B.a.bin7" />
-        <bin8 bin="64" hits="2" abs_name="top.adder.B.a.bin8" />
-        <bin9 bin="128" hits="0" abs_name="top.adder.B.a.bin9" />
-        <bin10 bin="255" hits="0" abs_name="top.adder.B.a.bin10" />
+    <B size="143" coverage="143" cover_percentage="100.0" abs_name="top.adder.B">
+      <a size="11" coverage="11" cover_percentage="100.0" abs_name="top.adder.B.a" weight="1" at_least="1">
+        <bin0 bin="0" hits="25" abs_name="top.adder.B.a.bin0" />
+        <bin1 bin="1" hits="22" abs_name="top.adder.B.a.bin1" />
+        <bin2 bin="2" hits="22" abs_name="top.adder.B.a.bin2" />
+        <bin3 bin="3" hits="22" abs_name="top.adder.B.a.bin3" />
+        <bin4 bin="4" hits="22" abs_name="top.adder.B.a.bin4" />
+        <bin5 bin="8" hits="22" abs_name="top.adder.B.a.bin5" />
+        <bin6 bin="16" hits="22" abs_name="top.adder.B.a.bin6" />
+        <bin7 bin="32" hits="22" abs_name="top.adder.B.a.bin7" />
+        <bin8 bin="64" hits="22" abs_name="top.adder.B.a.bin8" />
+        <bin9 bin="128" hits="22" abs_name="top.adder.B.a.bin9" />
+        <bin10 bin="255" hits="26" abs_name="top.adder.B.a.bin10" />
       </a>
-      <b size="11" coverage="1" cover_percentage="9.09" abs_name="top.adder.B.b" weight="1" at_least="1">
-        <bin0 bin="0" hits="16" abs_name="top.adder.B.b.bin0" />
-        <bin1 bin="1" hits="0" abs_name="top.adder.B.b.bin1" />
-        <bin2 bin="2" hits="0" abs_name="top.adder.B.b.bin2" />
-        <bin3 bin="3" hits="0" abs_name="top.adder.B.b.bin3" />
-        <bin4 bin="4" hits="0" abs_name="top.adder.B.b.bin4" />
-        <bin5 bin="8" hits="0" abs_name="top.adder.B.b.bin5" />
-        <bin6 bin="16" hits="0" abs_name="top.adder.B.b.bin6" />
-        <bin7 bin="32" hits="0" abs_name="top.adder.B.b.bin7" />
-        <bin8 bin="64" hits="0" abs_name="top.adder.B.b.bin8" />
-        <bin9 bin="128" hits="0" abs_name="top.adder.B.b.bin9" />
-        <bin10 bin="255" hits="0" abs_name="top.adder.B.b.bin10" />
+      <b size="11" coverage="11" cover_percentage="100.0" abs_name="top.adder.B.b" weight="1" at_least="1">
+        <bin0 bin="0" hits="25" abs_name="top.adder.B.b.bin0" />
+        <bin1 bin="1" hits="22" abs_name="top.adder.B.b.bin1" />
+        <bin2 bin="2" hits="22" abs_name="top.adder.B.b.bin2" />
+        <bin3 bin="3" hits="22" abs_name="top.adder.B.b.bin3" />
+        <bin4 bin="4" hits="22" abs_name="top.adder.B.b.bin4" />
+        <bin5 bin="8" hits="22" abs_name="top.adder.B.b.bin5" />
+        <bin6 bin="16" hits="22" abs_name="top.adder.B.b.bin6" />
+        <bin7 bin="32" hits="22" abs_name="top.adder.B.b.bin7" />
+        <bin8 bin="64" hits="22" abs_name="top.adder.B.b.bin8" />
+        <bin9 bin="128" hits="22" abs_name="top.adder.B.b.bin9" />
+        <bin10 bin="255" hits="26" abs_name="top.adder.B.b.bin10" />
       </b>
-      <cross_a_b size="121" coverage="1" cover_percentage="0.83" abs_name="top.adder.B.cross_a_b" weight="1" at_least="1">
-        <bin0 bin="(0, 0)" hits="16" abs_name="top.adder.B.cross_a_b.bin0" />
-        <bin1 bin="(0, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin1" />
-        <bin2 bin="(0, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin2" />
-        <bin3 bin="(0, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin3" />
-        <bin4 bin="(0, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin4" />
-        <bin5 bin="(0, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin5" />
-        <bin6 bin="(0, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin6" />
-        <bin7 bin="(0, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin7" />
-        <bin8 bin="(0, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin8" />
-        <bin9 bin="(0, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin9" />
-        <bin10 bin="(0, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin10" />
-        <bin11 bin="(1, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin11" />
-        <bin12 bin="(1, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin12" />
-        <bin13 bin="(1, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin13" />
-        <bin14 bin="(1, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin14" />
-        <bin15 bin="(1, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin15" />
-        <bin16 bin="(1, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin16" />
-        <bin17 bin="(1, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin17" />
-        <bin18 bin="(1, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin18" />
-        <bin19 bin="(1, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin19" />
-        <bin20 bin="(1, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin20" />
-        <bin21 bin="(1, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin21" />
-        <bin22 bin="(2, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin22" />
-        <bin23 bin="(2, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin23" />
-        <bin24 bin="(2, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin24" />
-        <bin25 bin="(2, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin25" />
-        <bin26 bin="(2, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin26" />
-        <bin27 bin="(2, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin27" />
-        <bin28 bin="(2, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin28" />
-        <bin29 bin="(2, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin29" />
-        <bin30 bin="(2, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin30" />
-        <bin31 bin="(2, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin31" />
-        <bin32 bin="(2, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin32" />
-        <bin33 bin="(3, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin33" />
-        <bin34 bin="(3, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin34" />
-        <bin35 bin="(3, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin35" />
-        <bin36 bin="(3, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin36" />
-        <bin37 bin="(3, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin37" />
-        <bin38 bin="(3, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin38" />
-        <bin39 bin="(3, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin39" />
-        <bin40 bin="(3, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin40" />
-        <bin41 bin="(3, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin41" />
-        <bin42 bin="(3, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin42" />
-        <bin43 bin="(3, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin43" />
-        <bin44 bin="(4, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin44" />
-        <bin45 bin="(4, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin45" />
-        <bin46 bin="(4, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin46" />
-        <bin47 bin="(4, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin47" />
-        <bin48 bin="(4, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin48" />
-        <bin49 bin="(4, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin49" />
-        <bin50 bin="(4, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin50" />
-        <bin51 bin="(4, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin51" />
-        <bin52 bin="(4, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin52" />
-        <bin53 bin="(4, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin53" />
-        <bin54 bin="(4, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin54" />
-        <bin55 bin="(8, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin55" />
-        <bin56 bin="(8, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin56" />
-        <bin57 bin="(8, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin57" />
-        <bin58 bin="(8, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin58" />
-        <bin59 bin="(8, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin59" />
-        <bin60 bin="(8, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin60" />
-        <bin61 bin="(8, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin61" />
-        <bin62 bin="(8, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin62" />
-        <bin63 bin="(8, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin63" />
-        <bin64 bin="(8, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin64" />
-        <bin65 bin="(8, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin65" />
-        <bin66 bin="(16, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin66" />
-        <bin67 bin="(16, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin67" />
-        <bin68 bin="(16, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin68" />
-        <bin69 bin="(16, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin69" />
-        <bin70 bin="(16, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin70" />
-        <bin71 bin="(16, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin71" />
-        <bin72 bin="(16, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin72" />
-        <bin73 bin="(16, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin73" />
-        <bin74 bin="(16, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin74" />
-        <bin75 bin="(16, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin75" />
-        <bin76 bin="(16, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin76" />
-        <bin77 bin="(32, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin77" />
-        <bin78 bin="(32, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin78" />
-        <bin79 bin="(32, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin79" />
-        <bin80 bin="(32, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin80" />
-        <bin81 bin="(32, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin81" />
-        <bin82 bin="(32, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin82" />
-        <bin83 bin="(32, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin83" />
-        <bin84 bin="(32, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin84" />
-        <bin85 bin="(32, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin85" />
-        <bin86 bin="(32, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin86" />
-        <bin87 bin="(32, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin87" />
-        <bin88 bin="(64, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin88" />
-        <bin89 bin="(64, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin89" />
-        <bin90 bin="(64, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin90" />
-        <bin91 bin="(64, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin91" />
-        <bin92 bin="(64, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin92" />
-        <bin93 bin="(64, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin93" />
-        <bin94 bin="(64, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin94" />
-        <bin95 bin="(64, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin95" />
-        <bin96 bin="(64, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin96" />
-        <bin97 bin="(64, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin97" />
-        <bin98 bin="(64, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin98" />
-        <bin99 bin="(128, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin99" />
-        <bin100 bin="(128, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin100" />
-        <bin101 bin="(128, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin101" />
-        <bin102 bin="(128, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin102" />
-        <bin103 bin="(128, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin103" />
-        <bin104 bin="(128, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin104" />
-        <bin105 bin="(128, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin105" />
-        <bin106 bin="(128, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin106" />
-        <bin107 bin="(128, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin107" />
-        <bin108 bin="(128, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin108" />
-        <bin109 bin="(128, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin109" />
-        <bin110 bin="(255, 0)" hits="0" abs_name="top.adder.B.cross_a_b.bin110" />
-        <bin111 bin="(255, 1)" hits="0" abs_name="top.adder.B.cross_a_b.bin111" />
-        <bin112 bin="(255, 2)" hits="0" abs_name="top.adder.B.cross_a_b.bin112" />
-        <bin113 bin="(255, 3)" hits="0" abs_name="top.adder.B.cross_a_b.bin113" />
-        <bin114 bin="(255, 4)" hits="0" abs_name="top.adder.B.cross_a_b.bin114" />
-        <bin115 bin="(255, 8)" hits="0" abs_name="top.adder.B.cross_a_b.bin115" />
-        <bin116 bin="(255, 16)" hits="0" abs_name="top.adder.B.cross_a_b.bin116" />
-        <bin117 bin="(255, 32)" hits="0" abs_name="top.adder.B.cross_a_b.bin117" />
-        <bin118 bin="(255, 64)" hits="0" abs_name="top.adder.B.cross_a_b.bin118" />
-        <bin119 bin="(255, 128)" hits="0" abs_name="top.adder.B.cross_a_b.bin119" />
-        <bin120 bin="(255, 255)" hits="0" abs_name="top.adder.B.cross_a_b.bin120" />
+      <cross_a_b size="121" coverage="121" cover_percentage="100.0" abs_name="top.adder.B.cross_a_b" weight="1" at_least="1">
+        <bin0 bin="(0, 0)" hits="5" abs_name="top.adder.B.cross_a_b.bin0" />
+        <bin1 bin="(0, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin1" />
+        <bin2 bin="(0, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin2" />
+        <bin3 bin="(0, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin3" />
+        <bin4 bin="(0, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin4" />
+        <bin5 bin="(0, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin5" />
+        <bin6 bin="(0, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin6" />
+        <bin7 bin="(0, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin7" />
+        <bin8 bin="(0, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin8" />
+        <bin9 bin="(0, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin9" />
+        <bin10 bin="(0, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin10" />
+        <bin11 bin="(1, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin11" />
+        <bin12 bin="(1, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin12" />
+        <bin13 bin="(1, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin13" />
+        <bin14 bin="(1, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin14" />
+        <bin15 bin="(1, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin15" />
+        <bin16 bin="(1, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin16" />
+        <bin17 bin="(1, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin17" />
+        <bin18 bin="(1, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin18" />
+        <bin19 bin="(1, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin19" />
+        <bin20 bin="(1, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin20" />
+        <bin21 bin="(1, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin21" />
+        <bin22 bin="(2, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin22" />
+        <bin23 bin="(2, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin23" />
+        <bin24 bin="(2, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin24" />
+        <bin25 bin="(2, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin25" />
+        <bin26 bin="(2, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin26" />
+        <bin27 bin="(2, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin27" />
+        <bin28 bin="(2, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin28" />
+        <bin29 bin="(2, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin29" />
+        <bin30 bin="(2, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin30" />
+        <bin31 bin="(2, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin31" />
+        <bin32 bin="(2, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin32" />
+        <bin33 bin="(3, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin33" />
+        <bin34 bin="(3, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin34" />
+        <bin35 bin="(3, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin35" />
+        <bin36 bin="(3, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin36" />
+        <bin37 bin="(3, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin37" />
+        <bin38 bin="(3, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin38" />
+        <bin39 bin="(3, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin39" />
+        <bin40 bin="(3, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin40" />
+        <bin41 bin="(3, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin41" />
+        <bin42 bin="(3, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin42" />
+        <bin43 bin="(3, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin43" />
+        <bin44 bin="(4, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin44" />
+        <bin45 bin="(4, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin45" />
+        <bin46 bin="(4, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin46" />
+        <bin47 bin="(4, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin47" />
+        <bin48 bin="(4, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin48" />
+        <bin49 bin="(4, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin49" />
+        <bin50 bin="(4, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin50" />
+        <bin51 bin="(4, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin51" />
+        <bin52 bin="(4, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin52" />
+        <bin53 bin="(4, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin53" />
+        <bin54 bin="(4, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin54" />
+        <bin55 bin="(8, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin55" />
+        <bin56 bin="(8, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin56" />
+        <bin57 bin="(8, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin57" />
+        <bin58 bin="(8, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin58" />
+        <bin59 bin="(8, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin59" />
+        <bin60 bin="(8, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin60" />
+        <bin61 bin="(8, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin61" />
+        <bin62 bin="(8, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin62" />
+        <bin63 bin="(8, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin63" />
+        <bin64 bin="(8, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin64" />
+        <bin65 bin="(8, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin65" />
+        <bin66 bin="(16, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin66" />
+        <bin67 bin="(16, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin67" />
+        <bin68 bin="(16, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin68" />
+        <bin69 bin="(16, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin69" />
+        <bin70 bin="(16, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin70" />
+        <bin71 bin="(16, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin71" />
+        <bin72 bin="(16, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin72" />
+        <bin73 bin="(16, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin73" />
+        <bin74 bin="(16, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin74" />
+        <bin75 bin="(16, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin75" />
+        <bin76 bin="(16, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin76" />
+        <bin77 bin="(32, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin77" />
+        <bin78 bin="(32, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin78" />
+        <bin79 bin="(32, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin79" />
+        <bin80 bin="(32, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin80" />
+        <bin81 bin="(32, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin81" />
+        <bin82 bin="(32, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin82" />
+        <bin83 bin="(32, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin83" />
+        <bin84 bin="(32, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin84" />
+        <bin85 bin="(32, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin85" />
+        <bin86 bin="(32, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin86" />
+        <bin87 bin="(32, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin87" />
+        <bin88 bin="(64, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin88" />
+        <bin89 bin="(64, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin89" />
+        <bin90 bin="(64, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin90" />
+        <bin91 bin="(64, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin91" />
+        <bin92 bin="(64, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin92" />
+        <bin93 bin="(64, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin93" />
+        <bin94 bin="(64, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin94" />
+        <bin95 bin="(64, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin95" />
+        <bin96 bin="(64, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin96" />
+        <bin97 bin="(64, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin97" />
+        <bin98 bin="(64, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin98" />
+        <bin99 bin="(128, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin99" />
+        <bin100 bin="(128, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin100" />
+        <bin101 bin="(128, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin101" />
+        <bin102 bin="(128, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin102" />
+        <bin103 bin="(128, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin103" />
+        <bin104 bin="(128, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin104" />
+        <bin105 bin="(128, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin105" />
+        <bin106 bin="(128, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin106" />
+        <bin107 bin="(128, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin107" />
+        <bin108 bin="(128, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin108" />
+        <bin109 bin="(128, 255)" hits="2" abs_name="top.adder.B.cross_a_b.bin109" />
+        <bin110 bin="(255, 0)" hits="2" abs_name="top.adder.B.cross_a_b.bin110" />
+        <bin111 bin="(255, 1)" hits="2" abs_name="top.adder.B.cross_a_b.bin111" />
+        <bin112 bin="(255, 2)" hits="2" abs_name="top.adder.B.cross_a_b.bin112" />
+        <bin113 bin="(255, 3)" hits="2" abs_name="top.adder.B.cross_a_b.bin113" />
+        <bin114 bin="(255, 4)" hits="2" abs_name="top.adder.B.cross_a_b.bin114" />
+        <bin115 bin="(255, 8)" hits="2" abs_name="top.adder.B.cross_a_b.bin115" />
+        <bin116 bin="(255, 16)" hits="2" abs_name="top.adder.B.cross_a_b.bin116" />
+        <bin117 bin="(255, 32)" hits="2" abs_name="top.adder.B.cross_a_b.bin117" />
+        <bin118 bin="(255, 64)" hits="2" abs_name="top.adder.B.cross_a_b.bin118" />
+        <bin119 bin="(255, 128)" hits="2" abs_name="top.adder.B.cross_a_b.bin119" />
+        <bin120 bin="(255, 255)" hits="6" abs_name="top.adder.B.cross_a_b.bin120" />
       </cross_a_b>
     </B>
     <overflow size="2" coverage="2" cover_percentage="100.0" abs_name="top.adder.overflow" weight="1" at_least="1">
-      <bin0 bin="0" hits="46" abs_name="top.adder.overflow.bin0" />
-      <bin1 bin="1" hits="24" abs_name="top.adder.overflow.bin1" />
+      <bin0 bin="0" hits="409" abs_name="top.adder.overflow.bin0" />
+      <bin1 bin="1" hits="89" abs_name="top.adder.overflow.bin1" />
     </overflow>
     <cross_overflow_valid size="4" coverage="4" cover_percentage="100.0" abs_name="top.adder.cross_overflow_valid" weight="1" at_least="1">
-      <bin0 bin="(0, 0)" hits="31" abs_name="top.adder.cross_overflow_valid.bin0" />
-      <bin1 bin="(0, 1)" hits="15" abs_name="top.adder.cross_overflow_valid.bin1" />
-      <bin2 bin="(1, 0)" hits="9" abs_name="top.adder.cross_overflow_valid.bin2" />
-      <bin3 bin="(1, 1)" hits="15" abs_name="top.adder.cross_overflow_valid.bin3" />
+      <bin0 bin="(0, 0)" hits="207" abs_name="top.adder.cross_overflow_valid.bin0" />
+      <bin1 bin="(0, 1)" hits="202" abs_name="top.adder.cross_overflow_valid.bin1" />
+      <bin2 bin="(1, 0)" hits="49" abs_name="top.adder.cross_overflow_valid.bin2" />
+      <bin3 bin="(1, 1)" hits="40" abs_name="top.adder.cross_overflow_valid.bin3" />
     </cross_overflow_valid>
-    <patterns size="4" coverage="3" cover_percentage="75.0" abs_name="top.adder.patterns" weight="1" at_least="1">
-      <bin0 bin="(0, 0)" hits="22" abs_name="top.adder.patterns.bin0" />
-      <bin1 bin="(0, 255)" hits="0" abs_name="top.adder.patterns.bin1" />
-      <bin2 bin="(255, 0)" hits="2" abs_name="top.adder.patterns.bin2" />
-      <bin3 bin="(255, 255)" hits="3" abs_name="top.adder.patterns.bin3" />
+    <patterns size="4" coverage="4" cover_percentage="100.0" abs_name="top.adder.patterns" weight="1" at_least="1">
+      <bin0 bin="(0, 0)" hits="9" abs_name="top.adder.patterns.bin0" />
+      <bin1 bin="(0, 255)" hits="4" abs_name="top.adder.patterns.bin1" />
+      <bin2 bin="(255, 0)" hits="4" abs_name="top.adder.patterns.bin2" />
+      <bin3 bin="(255, 255)" hits="13" abs_name="top.adder.patterns.bin3" />
     </patterns>
-    <cross_valid_rst size="4" coverage="4" cover_percentage="100.0" abs_name="top.adder.cross_valid_rst" weight="1" at_least="1">
-      <bin0 bin="(0, 0)" hits="36" abs_name="top.adder.cross_valid_rst.bin0" />
-      <bin1 bin="(0, 1)" hits="4" abs_name="top.adder.cross_valid_rst.bin1" />
-      <bin2 bin="(1, 0)" hits="28" abs_name="top.adder.cross_valid_rst.bin2" />
-      <bin3 bin="(1, 1)" hits="2" abs_name="top.adder.cross_valid_rst.bin3" />
+    <cross_valid_rst size="4" coverage="3" cover_percentage="75.0" abs_name="top.adder.cross_valid_rst" weight="1" at_least="1">
+      <bin0 bin="(0, 0)" hits="254" abs_name="top.adder.cross_valid_rst.bin0" />
+      <bin1 bin="(0, 1)" hits="2" abs_name="top.adder.cross_valid_rst.bin1" />
+      <bin2 bin="(1, 0)" hits="242" abs_name="top.adder.cross_valid_rst.bin2" />
+      <bin3 bin="(1, 1)" hits="0" abs_name="top.adder.cross_valid_rst.bin3" />
     </cross_valid_rst>
     <valid_rise size="2" coverage="2" cover_percentage="100.0" abs_name="top.adder.valid_rise" weight="1" at_least="1">
-      <bin0 bin="0" hits="49" abs_name="top.adder.valid_rise.bin0" />
-      <bin1 bin="1" hits="21" abs_name="top.adder.valid_rise.bin1" />
+      <bin0 bin="0" hits="376" abs_name="top.adder.valid_rise.bin0" />
+      <bin1 bin="1" hits="122" abs_name="top.adder.valid_rise.bin1" />
     </valid_rise>
-    <cross_sum_valid size="10" coverage="4" cover_percentage="40.0" abs_name="top.adder.cross_sum_valid" weight="1" at_least="1">
-      <bin0 bin="(0, 0)" hits="19" abs_name="top.adder.cross_sum_valid.bin0" />
-      <bin1 bin="(0, 1)" hits="5" abs_name="top.adder.cross_sum_valid.bin1" />
-      <bin2 bin="(1, 0)" hits="0" abs_name="top.adder.cross_sum_valid.bin2" />
-      <bin3 bin="(1, 1)" hits="1" abs_name="top.adder.cross_sum_valid.bin3" />
-      <bin4 bin="(2, 0)" hits="0" abs_name="top.adder.cross_sum_valid.bin4" />
-      <bin5 bin="(2, 1)" hits="0" abs_name="top.adder.cross_sum_valid.bin5" />
+    <cross_sum_valid size="10" coverage="6" cover_percentage="60.0" abs_name="top.adder.cross_sum_valid" weight="1" at_least="1">
+      <bin0 bin="(0, 0)" hits="7" abs_name="top.adder.cross_sum_valid.bin0" />
+      <bin1 bin="(0, 1)" hits="4" abs_name="top.adder.cross_sum_valid.bin1" />
+      <bin2 bin="(1, 0)" hits="6" abs_name="top.adder.cross_sum_valid.bin2" />
+      <bin3 bin="(1, 1)" hits="6" abs_name="top.adder.cross_sum_valid.bin3" />
+      <bin4 bin="(2, 0)" hits="6" abs_name="top.adder.cross_sum_valid.bin4" />
+      <bin5 bin="(2, 1)" hits="6" abs_name="top.adder.cross_sum_valid.bin5" />
       <bin6 bin="(255, 0)" hits="0" abs_name="top.adder.cross_sum_valid.bin6" />
-      <bin7 bin="(255, 1)" hits="1" abs_name="top.adder.cross_sum_valid.bin7" />
+      <bin7 bin="(255, 1)" hits="0" abs_name="top.adder.cross_sum_valid.bin7" />
       <bin8 bin="(511, 0)" hits="0" abs_name="top.adder.cross_sum_valid.bin8" />
       <bin9 bin="(511, 1)" hits="0" abs_name="top.adder.cross_sum_valid.bin9" />
     </cross_sum_valid>
-    <cross_a_b size="121" coverage="5" cover_percentage="4.13" abs_name="top.adder.cross_a_b" weight="1" at_least="1">
-      <bin0 bin="(0, 0)" hits="22" abs_name="top.adder.cross_a_b.bin0" />
-      <bin1 bin="(0, 1)" hits="0" abs_name="top.adder.cross_a_b.bin1" />
-      <bin2 bin="(0, 2)" hits="0" abs_name="top.adder.cross_a_b.bin2" />
-      <bin3 bin="(0, 3)" hits="0" abs_name="top.adder.cross_a_b.bin3" />
-      <bin4 bin="(0, 4)" hits="0" abs_name="top.adder.cross_a_b.bin4" />
-      <bin5 bin="(0, 8)" hits="0" abs_name="top.adder.cross_a_b.bin5" />
-      <bin6 bin="(0, 16)" hits="0" abs_name="top.adder.cross_a_b.bin6" />
-      <bin7 bin="(0, 32)" hits="0" abs_name="top.adder.cross_a_b.bin7" />
-      <bin8 bin="(0, 64)" hits="0" abs_name="top.adder.cross_a_b.bin8" />
-      <bin9 bin="(0, 128)" hits="0" abs_name="top.adder.cross_a_b.bin9" />
-      <bin10 bin="(0, 255)" hits="0" abs_name="top.adder.cross_a_b.bin10" />
-      <bin11 bin="(1, 0)" hits="0" abs_name="top.adder.cross_a_b.bin11" />
-      <bin12 bin="(1, 1)" hits="1" abs_name="top.adder.cross_a_b.bin12" />
-      <bin13 bin="(1, 2)" hits="0" abs_name="top.adder.cross_a_b.bin13" />
-      <bin14 bin="(1, 3)" hits="0" abs_name="top.adder.cross_a_b.bin14" />
-      <bin15 bin="(1, 4)" hits="0" abs_name="top.adder.cross_a_b.bin15" />
-      <bin16 bin="(1, 8)" hits="0" abs_name="top.adder.cross_a_b.bin16" />
-      <bin17 bin="(1, 16)" hits="0" abs_name="top.adder.cross_a_b.bin17" />
-      <bin18 bin="(1, 32)" hits="0" abs_name="top.adder.cross_a_b.bin18" />
-      <bin19 bin="(1, 64)" hits="0" abs_name="top.adder.cross_a_b.bin19" />
-      <bin20 bin="(1, 128)" hits="0" abs_name="top.adder.cross_a_b.bin20" />
-      <bin21 bin="(1, 255)" hits="0" abs_name="top.adder.cross_a_b.bin21" />
-      <bin22 bin="(2, 0)" hits="0" abs_name="top.adder.cross_a_b.bin22" />
-      <bin23 bin="(2, 1)" hits="0" abs_name="top.adder.cross_a_b.bin23" />
-      <bin24 bin="(2, 2)" hits="0" abs_name="top.adder.cross_a_b.bin24" />
-      <bin25 bin="(2, 3)" hits="0" abs_name="top.adder.cross_a_b.bin25" />
-      <bin26 bin="(2, 4)" hits="0" abs_name="top.adder.cross_a_b.bin26" />
-      <bin27 bin="(2, 8)" hits="0" abs_name="top.adder.cross_a_b.bin27" />
-      <bin28 bin="(2, 16)" hits="0" abs_name="top.adder.cross_a_b.bin28" />
-      <bin29 bin="(2, 32)" hits="0" abs_name="top.adder.cross_a_b.bin29" />
-      <bin30 bin="(2, 64)" hits="0" abs_name="top.adder.cross_a_b.bin30" />
-      <bin31 bin="(2, 128)" hits="0" abs_name="top.adder.cross_a_b.bin31" />
-      <bin32 bin="(2, 255)" hits="0" abs_name="top.adder.cross_a_b.bin32" />
-      <bin33 bin="(3, 0)" hits="0" abs_name="top.adder.cross_a_b.bin33" />
-      <bin34 bin="(3, 1)" hits="0" abs_name="top.adder.cross_a_b.bin34" />
-      <bin35 bin="(3, 2)" hits="0" abs_name="top.adder.cross_a_b.bin35" />
-      <bin36 bin="(3, 3)" hits="0" abs_name="top.adder.cross_a_b.bin36" />
-      <bin37 bin="(3, 4)" hits="0" abs_name="top.adder.cross_a_b.bin37" />
-      <bin38 bin="(3, 8)" hits="0" abs_name="top.adder.cross_a_b.bin38" />
-      <bin39 bin="(3, 16)" hits="0" abs_name="top.adder.cross_a_b.bin39" />
-      <bin40 bin="(3, 32)" hits="0" abs_name="top.adder.cross_a_b.bin40" />
-      <bin41 bin="(3, 64)" hits="0" abs_name="top.adder.cross_a_b.bin41" />
-      <bin42 bin="(3, 128)" hits="0" abs_name="top.adder.cross_a_b.bin42" />
-      <bin43 bin="(3, 255)" hits="0" abs_name="top.adder.cross_a_b.bin43" />
-      <bin44 bin="(4, 0)" hits="0" abs_name="top.adder.cross_a_b.bin44" />
-      <bin45 bin="(4, 1)" hits="0" abs_name="top.adder.cross_a_b.bin45" />
-      <bin46 bin="(4, 2)" hits="0" abs_name="top.adder.cross_a_b.bin46" />
-      <bin47 bin="(4, 3)" hits="0" abs_name="top.adder.cross_a_b.bin47" />
-      <bin48 bin="(4, 4)" hits="0" abs_name="top.adder.cross_a_b.bin48" />
-      <bin49 bin="(4, 8)" hits="0" abs_name="top.adder.cross_a_b.bin49" />
-      <bin50 bin="(4, 16)" hits="0" abs_name="top.adder.cross_a_b.bin50" />
-      <bin51 bin="(4, 32)" hits="0" abs_name="top.adder.cross_a_b.bin51" />
-      <bin52 bin="(4, 64)" hits="0" abs_name="top.adder.cross_a_b.bin52" />
-      <bin53 bin="(4, 128)" hits="0" abs_name="top.adder.cross_a_b.bin53" />
-      <bin54 bin="(4, 255)" hits="0" abs_name="top.adder.cross_a_b.bin54" />
-      <bin55 bin="(8, 0)" hits="0" abs_name="top.adder.cross_a_b.bin55" />
-      <bin56 bin="(8, 1)" hits="0" abs_name="top.adder.cross_a_b.bin56" />
-      <bin57 bin="(8, 2)" hits="0" abs_name="top.adder.cross_a_b.bin57" />
-      <bin58 bin="(8, 3)" hits="0" abs_name="top.adder.cross_a_b.bin58" />
-      <bin59 bin="(8, 4)" hits="0" abs_name="top.adder.cross_a_b.bin59" />
-      <bin60 bin="(8, 8)" hits="0" abs_name="top.adder.cross_a_b.bin60" />
-      <bin61 bin="(8, 16)" hits="0" abs_name="top.adder.cross_a_b.bin61" />
-      <bin62 bin="(8, 32)" hits="0" abs_name="top.adder.cross_a_b.bin62" />
-      <bin63 bin="(8, 64)" hits="0" abs_name="top.adder.cross_a_b.bin63" />
-      <bin64 bin="(8, 128)" hits="0" abs_name="top.adder.cross_a_b.bin64" />
-      <bin65 bin="(8, 255)" hits="0" abs_name="top.adder.cross_a_b.bin65" />
-      <bin66 bin="(16, 0)" hits="0" abs_name="top.adder.cross_a_b.bin66" />
-      <bin67 bin="(16, 1)" hits="0" abs_name="top.adder.cross_a_b.bin67" />
-      <bin68 bin="(16, 2)" hits="0" abs_name="top.adder.cross_a_b.bin68" />
-      <bin69 bin="(16, 3)" hits="0" abs_name="top.adder.cross_a_b.bin69" />
-      <bin70 bin="(16, 4)" hits="0" abs_name="top.adder.cross_a_b.bin70" />
-      <bin71 bin="(16, 8)" hits="0" abs_name="top.adder.cross_a_b.bin71" />
-      <bin72 bin="(16, 16)" hits="0" abs_name="top.adder.cross_a_b.bin72" />
-      <bin73 bin="(16, 32)" hits="0" abs_name="top.adder.cross_a_b.bin73" />
-      <bin74 bin="(16, 64)" hits="0" abs_name="top.adder.cross_a_b.bin74" />
-      <bin75 bin="(16, 128)" hits="0" abs_name="top.adder.cross_a_b.bin75" />
-      <bin76 bin="(16, 255)" hits="0" abs_name="top.adder.cross_a_b.bin76" />
-      <bin77 bin="(32, 0)" hits="0" abs_name="top.adder.cross_a_b.bin77" />
-      <bin78 bin="(32, 1)" hits="0" abs_name="top.adder.cross_a_b.bin78" />
-      <bin79 bin="(32, 2)" hits="0" abs_name="top.adder.cross_a_b.bin79" />
-      <bin80 bin="(32, 3)" hits="0" abs_name="top.adder.cross_a_b.bin80" />
-      <bin81 bin="(32, 4)" hits="0" abs_name="top.adder.cross_a_b.bin81" />
-      <bin82 bin="(32, 8)" hits="0" abs_name="top.adder.cross_a_b.bin82" />
-      <bin83 bin="(32, 16)" hits="0" abs_name="top.adder.cross_a_b.bin83" />
-      <bin84 bin="(32, 32)" hits="0" abs_name="top.adder.cross_a_b.bin84" />
-      <bin85 bin="(32, 64)" hits="0" abs_name="top.adder.cross_a_b.bin85" />
-      <bin86 bin="(32, 128)" hits="0" abs_name="top.adder.cross_a_b.bin86" />
-      <bin87 bin="(32, 255)" hits="0" abs_name="top.adder.cross_a_b.bin87" />
-      <bin88 bin="(64, 0)" hits="0" abs_name="top.adder.cross_a_b.bin88" />
-      <bin89 bin="(64, 1)" hits="0" abs_name="top.adder.cross_a_b.bin89" />
-      <bin90 bin="(64, 2)" hits="0" abs_name="top.adder.cross_a_b.bin90" />
-      <bin91 bin="(64, 3)" hits="0" abs_name="top.adder.cross_a_b.bin91" />
-      <bin92 bin="(64, 4)" hits="0" abs_name="top.adder.cross_a_b.bin92" />
-      <bin93 bin="(64, 8)" hits="0" abs_name="top.adder.cross_a_b.bin93" />
-      <bin94 bin="(64, 16)" hits="0" abs_name="top.adder.cross_a_b.bin94" />
-      <bin95 bin="(64, 32)" hits="0" abs_name="top.adder.cross_a_b.bin95" />
-      <bin96 bin="(64, 64)" hits="0" abs_name="top.adder.cross_a_b.bin96" />
-      <bin97 bin="(64, 128)" hits="0" abs_name="top.adder.cross_a_b.bin97" />
-      <bin98 bin="(64, 255)" hits="0" abs_name="top.adder.cross_a_b.bin98" />
-      <bin99 bin="(128, 0)" hits="0" abs_name="top.adder.cross_a_b.bin99" />
-      <bin100 bin="(128, 1)" hits="0" abs_name="top.adder.cross_a_b.bin100" />
-      <bin101 bin="(128, 2)" hits="0" abs_name="top.adder.cross_a_b.bin101" />
-      <bin102 bin="(128, 3)" hits="0" abs_name="top.adder.cross_a_b.bin102" />
-      <bin103 bin="(128, 4)" hits="0" abs_name="top.adder.cross_a_b.bin103" />
-      <bin104 bin="(128, 8)" hits="0" abs_name="top.adder.cross_a_b.bin104" />
-      <bin105 bin="(128, 16)" hits="0" abs_name="top.adder.cross_a_b.bin105" />
-      <bin106 bin="(128, 32)" hits="0" abs_name="top.adder.cross_a_b.bin106" />
-      <bin107 bin="(128, 64)" hits="0" abs_name="top.adder.cross_a_b.bin107" />
-      <bin108 bin="(128, 128)" hits="0" abs_name="top.adder.cross_a_b.bin108" />
-      <bin109 bin="(128, 255)" hits="0" abs_name="top.adder.cross_a_b.bin109" />
-      <bin110 bin="(255, 0)" hits="2" abs_name="top.adder.cross_a_b.bin110" />
-      <bin111 bin="(255, 1)" hits="1" abs_name="top.adder.cross_a_b.bin111" />
-      <bin112 bin="(255, 2)" hits="0" abs_name="top.adder.cross_a_b.bin112" />
-      <bin113 bin="(255, 3)" hits="0" abs_name="top.adder.cross_a_b.bin113" />
-      <bin114 bin="(255, 4)" hits="0" abs_name="top.adder.cross_a_b.bin114" />
-      <bin115 bin="(255, 8)" hits="0" abs_name="top.adder.cross_a_b.bin115" />
-      <bin116 bin="(255, 16)" hits="0" abs_name="top.adder.cross_a_b.bin116" />
-      <bin117 bin="(255, 32)" hits="0" abs_name="top.adder.cross_a_b.bin117" />
-      <bin118 bin="(255, 64)" hits="0" abs_name="top.adder.cross_a_b.bin118" />
-      <bin119 bin="(255, 128)" hits="0" abs_name="top.adder.cross_a_b.bin119" />
-      <bin120 bin="(255, 255)" hits="3" abs_name="top.adder.cross_a_b.bin120" />
+    <cross_a_b size="121" coverage="121" cover_percentage="100.0" abs_name="top.adder.cross_a_b" weight="1" at_least="1">
+      <bin0 bin="(0, 0)" hits="9" abs_name="top.adder.cross_a_b.bin0" />
+      <bin1 bin="(0, 1)" hits="4" abs_name="top.adder.cross_a_b.bin1" />
+      <bin2 bin="(0, 2)" hits="4" abs_name="top.adder.cross_a_b.bin2" />
+      <bin3 bin="(0, 3)" hits="4" abs_name="top.adder.cross_a_b.bin3" />
+      <bin4 bin="(0, 4)" hits="4" abs_name="top.adder.cross_a_b.bin4" />
+      <bin5 bin="(0, 8)" hits="4" abs_name="top.adder.cross_a_b.bin5" />
+      <bin6 bin="(0, 16)" hits="4" abs_name="top.adder.cross_a_b.bin6" />
+      <bin7 bin="(0, 32)" hits="4" abs_name="top.adder.cross_a_b.bin7" />
+      <bin8 bin="(0, 64)" hits="4" abs_name="top.adder.cross_a_b.bin8" />
+      <bin9 bin="(0, 128)" hits="4" abs_name="top.adder.cross_a_b.bin9" />
+      <bin10 bin="(0, 255)" hits="4" abs_name="top.adder.cross_a_b.bin10" />
+      <bin11 bin="(1, 0)" hits="4" abs_name="top.adder.cross_a_b.bin11" />
+      <bin12 bin="(1, 1)" hits="4" abs_name="top.adder.cross_a_b.bin12" />
+      <bin13 bin="(1, 2)" hits="4" abs_name="top.adder.cross_a_b.bin13" />
+      <bin14 bin="(1, 3)" hits="4" abs_name="top.adder.cross_a_b.bin14" />
+      <bin15 bin="(1, 4)" hits="4" abs_name="top.adder.cross_a_b.bin15" />
+      <bin16 bin="(1, 8)" hits="4" abs_name="top.adder.cross_a_b.bin16" />
+      <bin17 bin="(1, 16)" hits="4" abs_name="top.adder.cross_a_b.bin17" />
+      <bin18 bin="(1, 32)" hits="4" abs_name="top.adder.cross_a_b.bin18" />
+      <bin19 bin="(1, 64)" hits="4" abs_name="top.adder.cross_a_b.bin19" />
+      <bin20 bin="(1, 128)" hits="4" abs_name="top.adder.cross_a_b.bin20" />
+      <bin21 bin="(1, 255)" hits="4" abs_name="top.adder.cross_a_b.bin21" />
+      <bin22 bin="(2, 0)" hits="4" abs_name="top.adder.cross_a_b.bin22" />
+      <bin23 bin="(2, 1)" hits="4" abs_name="top.adder.cross_a_b.bin23" />
+      <bin24 bin="(2, 2)" hits="4" abs_name="top.adder.cross_a_b.bin24" />
+      <bin25 bin="(2, 3)" hits="4" abs_name="top.adder.cross_a_b.bin25" />
+      <bin26 bin="(2, 4)" hits="4" abs_name="top.adder.cross_a_b.bin26" />
+      <bin27 bin="(2, 8)" hits="4" abs_name="top.adder.cross_a_b.bin27" />
+      <bin28 bin="(2, 16)" hits="4" abs_name="top.adder.cross_a_b.bin28" />
+      <bin29 bin="(2, 32)" hits="4" abs_name="top.adder.cross_a_b.bin29" />
+      <bin30 bin="(2, 64)" hits="4" abs_name="top.adder.cross_a_b.bin30" />
+      <bin31 bin="(2, 128)" hits="4" abs_name="top.adder.cross_a_b.bin31" />
+      <bin32 bin="(2, 255)" hits="4" abs_name="top.adder.cross_a_b.bin32" />
+      <bin33 bin="(3, 0)" hits="4" abs_name="top.adder.cross_a_b.bin33" />
+      <bin34 bin="(3, 1)" hits="4" abs_name="top.adder.cross_a_b.bin34" />
+      <bin35 bin="(3, 2)" hits="4" abs_name="top.adder.cross_a_b.bin35" />
+      <bin36 bin="(3, 3)" hits="4" abs_name="top.adder.cross_a_b.bin36" />
+      <bin37 bin="(3, 4)" hits="4" abs_name="top.adder.cross_a_b.bin37" />
+      <bin38 bin="(3, 8)" hits="4" abs_name="top.adder.cross_a_b.bin38" />
+      <bin39 bin="(3, 16)" hits="4" abs_name="top.adder.cross_a_b.bin39" />
+      <bin40 bin="(3, 32)" hits="4" abs_name="top.adder.cross_a_b.bin40" />
+      <bin41 bin="(3, 64)" hits="4" abs_name="top.adder.cross_a_b.bin41" />
+      <bin42 bin="(3, 128)" hits="4" abs_name="top.adder.cross_a_b.bin42" />
+      <bin43 bin="(3, 255)" hits="4" abs_name="top.adder.cross_a_b.bin43" />
+      <bin44 bin="(4, 0)" hits="4" abs_name="top.adder.cross_a_b.bin44" />
+      <bin45 bin="(4, 1)" hits="4" abs_name="top.adder.cross_a_b.bin45" />
+      <bin46 bin="(4, 2)" hits="4" abs_name="top.adder.cross_a_b.bin46" />
+      <bin47 bin="(4, 3)" hits="4" abs_name="top.adder.cross_a_b.bin47" />
+      <bin48 bin="(4, 4)" hits="4" abs_name="top.adder.cross_a_b.bin48" />
+      <bin49 bin="(4, 8)" hits="4" abs_name="top.adder.cross_a_b.bin49" />
+      <bin50 bin="(4, 16)" hits="4" abs_name="top.adder.cross_a_b.bin50" />
+      <bin51 bin="(4, 32)" hits="4" abs_name="top.adder.cross_a_b.bin51" />
+      <bin52 bin="(4, 64)" hits="4" abs_name="top.adder.cross_a_b.bin52" />
+      <bin53 bin="(4, 128)" hits="4" abs_name="top.adder.cross_a_b.bin53" />
+      <bin54 bin="(4, 255)" hits="4" abs_name="top.adder.cross_a_b.bin54" />
+      <bin55 bin="(8, 0)" hits="4" abs_name="top.adder.cross_a_b.bin55" />
+      <bin56 bin="(8, 1)" hits="4" abs_name="top.adder.cross_a_b.bin56" />
+      <bin57 bin="(8, 2)" hits="4" abs_name="top.adder.cross_a_b.bin57" />
+      <bin58 bin="(8, 3)" hits="4" abs_name="top.adder.cross_a_b.bin58" />
+      <bin59 bin="(8, 4)" hits="4" abs_name="top.adder.cross_a_b.bin59" />
+      <bin60 bin="(8, 8)" hits="4" abs_name="top.adder.cross_a_b.bin60" />
+      <bin61 bin="(8, 16)" hits="4" abs_name="top.adder.cross_a_b.bin61" />
+      <bin62 bin="(8, 32)" hits="4" abs_name="top.adder.cross_a_b.bin62" />
+      <bin63 bin="(8, 64)" hits="4" abs_name="top.adder.cross_a_b.bin63" />
+      <bin64 bin="(8, 128)" hits="4" abs_name="top.adder.cross_a_b.bin64" />
+      <bin65 bin="(8, 255)" hits="4" abs_name="top.adder.cross_a_b.bin65" />
+      <bin66 bin="(16, 0)" hits="4" abs_name="top.adder.cross_a_b.bin66" />
+      <bin67 bin="(16, 1)" hits="4" abs_name="top.adder.cross_a_b.bin67" />
+      <bin68 bin="(16, 2)" hits="4" abs_name="top.adder.cross_a_b.bin68" />
+      <bin69 bin="(16, 3)" hits="4" abs_name="top.adder.cross_a_b.bin69" />
+      <bin70 bin="(16, 4)" hits="4" abs_name="top.adder.cross_a_b.bin70" />
+      <bin71 bin="(16, 8)" hits="4" abs_name="top.adder.cross_a_b.bin71" />
+      <bin72 bin="(16, 16)" hits="4" abs_name="top.adder.cross_a_b.bin72" />
+      <bin73 bin="(16, 32)" hits="4" abs_name="top.adder.cross_a_b.bin73" />
+      <bin74 bin="(16, 64)" hits="4" abs_name="top.adder.cross_a_b.bin74" />
+      <bin75 bin="(16, 128)" hits="4" abs_name="top.adder.cross_a_b.bin75" />
+      <bin76 bin="(16, 255)" hits="4" abs_name="top.adder.cross_a_b.bin76" />
+      <bin77 bin="(32, 0)" hits="4" abs_name="top.adder.cross_a_b.bin77" />
+      <bin78 bin="(32, 1)" hits="4" abs_name="top.adder.cross_a_b.bin78" />
+      <bin79 bin="(32, 2)" hits="4" abs_name="top.adder.cross_a_b.bin79" />
+      <bin80 bin="(32, 3)" hits="4" abs_name="top.adder.cross_a_b.bin80" />
+      <bin81 bin="(32, 4)" hits="4" abs_name="top.adder.cross_a_b.bin81" />
+      <bin82 bin="(32, 8)" hits="4" abs_name="top.adder.cross_a_b.bin82" />
+      <bin83 bin="(32, 16)" hits="4" abs_name="top.adder.cross_a_b.bin83" />
+      <bin84 bin="(32, 32)" hits="4" abs_name="top.adder.cross_a_b.bin84" />
+      <bin85 bin="(32, 64)" hits="4" abs_name="top.adder.cross_a_b.bin85" />
+      <bin86 bin="(32, 128)" hits="4" abs_name="top.adder.cross_a_b.bin86" />
+      <bin87 bin="(32, 255)" hits="4" abs_name="top.adder.cross_a_b.bin87" />
+      <bin88 bin="(64, 0)" hits="4" abs_name="top.adder.cross_a_b.bin88" />
+      <bin89 bin="(64, 1)" hits="4" abs_name="top.adder.cross_a_b.bin89" />
+      <bin90 bin="(64, 2)" hits="4" abs_name="top.adder.cross_a_b.bin90" />
+      <bin91 bin="(64, 3)" hits="4" abs_name="top.adder.cross_a_b.bin91" />
+      <bin92 bin="(64, 4)" hits="4" abs_name="top.adder.cross_a_b.bin92" />
+      <bin93 bin="(64, 8)" hits="4" abs_name="top.adder.cross_a_b.bin93" />
+      <bin94 bin="(64, 16)" hits="4" abs_name="top.adder.cross_a_b.bin94" />
+      <bin95 bin="(64, 32)" hits="4" abs_name="top.adder.cross_a_b.bin95" />
+      <bin96 bin="(64, 64)" hits="4" abs_name="top.adder.cross_a_b.bin96" />
+      <bin97 bin="(64, 128)" hits="4" abs_name="top.adder.cross_a_b.bin97" />
+      <bin98 bin="(64, 255)" hits="4" abs_name="top.adder.cross_a_b.bin98" />
+      <bin99 bin="(128, 0)" hits="4" abs_name="top.adder.cross_a_b.bin99" />
+      <bin100 bin="(128, 1)" hits="4" abs_name="top.adder.cross_a_b.bin100" />
+      <bin101 bin="(128, 2)" hits="4" abs_name="top.adder.cross_a_b.bin101" />
+      <bin102 bin="(128, 3)" hits="4" abs_name="top.adder.cross_a_b.bin102" />
+      <bin103 bin="(128, 4)" hits="4" abs_name="top.adder.cross_a_b.bin103" />
+      <bin104 bin="(128, 8)" hits="4" abs_name="top.adder.cross_a_b.bin104" />
+      <bin105 bin="(128, 16)" hits="4" abs_name="top.adder.cross_a_b.bin105" />
+      <bin106 bin="(128, 32)" hits="4" abs_name="top.adder.cross_a_b.bin106" />
+      <bin107 bin="(128, 64)" hits="4" abs_name="top.adder.cross_a_b.bin107" />
+      <bin108 bin="(128, 128)" hits="4" abs_name="top.adder.cross_a_b.bin108" />
+      <bin109 bin="(128, 255)" hits="4" abs_name="top.adder.cross_a_b.bin109" />
+      <bin110 bin="(255, 0)" hits="4" abs_name="top.adder.cross_a_b.bin110" />
+      <bin111 bin="(255, 1)" hits="4" abs_name="top.adder.cross_a_b.bin111" />
+      <bin112 bin="(255, 2)" hits="4" abs_name="top.adder.cross_a_b.bin112" />
+      <bin113 bin="(255, 3)" hits="4" abs_name="top.adder.cross_a_b.bin113" />
+      <bin114 bin="(255, 4)" hits="4" abs_name="top.adder.cross_a_b.bin114" />
+      <bin115 bin="(255, 8)" hits="4" abs_name="top.adder.cross_a_b.bin115" />
+      <bin116 bin="(255, 16)" hits="4" abs_name="top.adder.cross_a_b.bin116" />
+      <bin117 bin="(255, 32)" hits="4" abs_name="top.adder.cross_a_b.bin117" />
+      <bin118 bin="(255, 64)" hits="4" abs_name="top.adder.cross_a_b.bin118" />
+      <bin119 bin="(255, 128)" hits="4" abs_name="top.adder.cross_a_b.bin119" />
+      <bin120 bin="(255, 255)" hits="13" abs_name="top.adder.cross_a_b.bin120" />
     </cross_a_b>
-    <cross_valid_rise_sum size="10" coverage="4" cover_percentage="40.0" abs_name="top.adder.cross_valid_rise_sum" weight="1" at_least="1">
-      <bin0 bin="(0, 0)" hits="19" abs_name="top.adder.cross_valid_rise_sum.bin0" />
-      <bin1 bin="(0, 1)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin1" />
-      <bin2 bin="(0, 2)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin2" />
+    <cross_valid_rise_sum size="10" coverage="6" cover_percentage="60.0" abs_name="top.adder.cross_valid_rise_sum" weight="1" at_least="1">
+      <bin0 bin="(0, 0)" hits="8" abs_name="top.adder.cross_valid_rise_sum.bin0" />
+      <bin1 bin="(0, 1)" hits="9" abs_name="top.adder.cross_valid_rise_sum.bin1" />
+      <bin2 bin="(0, 2)" hits="9" abs_name="top.adder.cross_valid_rise_sum.bin2" />
       <bin3 bin="(0, 255)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin3" />
       <bin4 bin="(0, 511)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin4" />
-      <bin5 bin="(1, 0)" hits="5" abs_name="top.adder.cross_valid_rise_sum.bin5" />
-      <bin6 bin="(1, 1)" hits="1" abs_name="top.adder.cross_valid_rise_sum.bin6" />
-      <bin7 bin="(1, 2)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin7" />
-      <bin8 bin="(1, 255)" hits="1" abs_name="top.adder.cross_valid_rise_sum.bin8" />
+      <bin5 bin="(1, 0)" hits="3" abs_name="top.adder.cross_valid_rise_sum.bin5" />
+      <bin6 bin="(1, 1)" hits="3" abs_name="top.adder.cross_valid_rise_sum.bin6" />
+      <bin7 bin="(1, 2)" hits="3" abs_name="top.adder.cross_valid_rise_sum.bin7" />
+      <bin8 bin="(1, 255)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin8" />
       <bin9 bin="(1, 511)" hits="0" abs_name="top.adder.cross_valid_rise_sum.bin9" />
     </cross_valid_rise_sum>
-    <cross_pattern_overflow size="8" coverage="3" cover_percentage="37.5" abs_name="top.adder.cross_pattern_overflow" weight="1" at_least="1">
-      <bin0 bin="((0, 0), 0)" hits="22" abs_name="top.adder.cross_pattern_overflow.bin0" />
+    <cross_pattern_overflow size="8" coverage="4" cover_percentage="50.0" abs_name="top.adder.cross_pattern_overflow" weight="1" at_least="1">
+      <bin0 bin="((0, 0), 0)" hits="9" abs_name="top.adder.cross_pattern_overflow.bin0" />
       <bin1 bin="((0, 0), 1)" hits="0" abs_name="top.adder.cross_pattern_overflow.bin1" />
-      <bin2 bin="((0, 255), 0)" hits="0" abs_name="top.adder.cross_pattern_overflow.bin2" />
+      <bin2 bin="((0, 255), 0)" hits="4" abs_name="top.adder.cross_pattern_overflow.bin2" />
       <bin3 bin="((0, 255), 1)" hits="0" abs_name="top.adder.cross_pattern_overflow.bin3" />
-      <bin4 bin="((255, 0), 0)" hits="2" abs_name="top.adder.cross_pattern_overflow.bin4" />
+      <bin4 bin="((255, 0), 0)" hits="4" abs_name="top.adder.cross_pattern_overflow.bin4" />
       <bin5 bin="((255, 0), 1)" hits="0" abs_name="top.adder.cross_pattern_overflow.bin5" />
       <bin6 bin="((255, 255), 0)" hits="0" abs_name="top.adder.cross_pattern_overflow.bin6" />
-      <bin7 bin="((255, 255), 1)" hits="3" abs_name="top.adder.cross_pattern_overflow.bin7" />
+      <bin7 bin="((255, 255), 1)" hits="13" abs_name="top.adder.cross_pattern_overflow.bin7" />
     </cross_pattern_overflow>
   </adder>
 </top>

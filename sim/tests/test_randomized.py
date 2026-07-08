@@ -42,7 +42,7 @@ async def randomized(dut):
     # Wait one clock so the first transaction doesn’t collide with the 40 ns sample
     await RisingEdge(dut.clk)
 
-    for _ in range(50):
+    for _ in range(500):
         await agent_a.driver.send(AdderTransaction.random())
         await agent_b.driver.send(AdderTransaction.random())
 

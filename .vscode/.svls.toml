@@ -1,0 +1,2 @@
+[verilog]
+include_paths = ["rtl"]

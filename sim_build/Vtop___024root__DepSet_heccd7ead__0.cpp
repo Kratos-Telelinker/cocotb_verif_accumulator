@@ -41,8 +41,6 @@ void Vtop___024root___eval_act(Vtop___024root* vlSelf) {
 }
 
 void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf);
-void Vtop___024root___nba_sequent__TOP__1(Vtop___024root* vlSelf);
-void Vtop___024root___nba_sequent__TOP__2(Vtop___024root* vlSelf);
 
 void Vtop___024root___eval_nba(Vtop___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_nba\n"); );
@@ -51,12 +49,6 @@ void Vtop___024root___eval_nba(Vtop___024root* vlSelf) {
     // Body
     if ((1ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vtop___024root___nba_sequent__TOP__0(vlSelf);
-    }
-    if ((0x1ffeULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vtop___024root___nba_sequent__TOP__1(vlSelf);
-    }
-    if ((1ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vtop___024root___nba_sequent__TOP__2(vlSelf);
     }
 }
 
@@ -67,7 +59,7 @@ bool Vtop___024root___eval_phase__act(Vtop___024root* vlSelf) {
     Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
-    VlTriggerVec<13> __VpreTriggered;
+    VlTriggerVec<1> __VpreTriggered;
     CData/*0:0*/ __VactExecute;
     // Body
     Vtop___024root___eval_triggers__act(vlSelf);

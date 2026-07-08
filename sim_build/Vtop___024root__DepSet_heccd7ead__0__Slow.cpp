@@ -12,30 +12,6 @@ VL_ATTR_COLD void Vtop___024root___eval_static(Vtop___024root* vlSelf) {
     // Body
     vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__clk__0 
         = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__clk;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_B;
 }
 
 VL_ATTR_COLD void Vtop___024root___eval_initial__TOP(Vtop___024root* vlSelf);
@@ -157,42 +133,6 @@ VL_ATTR_COLD void Vtop___024root___dump_triggers__act(Vtop___024root* vlSelf) {
     if ((1ULL & vlSelfRef.__VactTriggered.word(0U))) {
         VL_DBG_MSGF("         'act' region trigger index 0 is active: @(posedge dut_wrapper.u_top_level.clk)\n");
     }
-    if ((2ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 1 is active: @( dut_wrapper.u_top_level.a_A)\n");
-    }
-    if ((4ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 2 is active: @( dut_wrapper.u_top_level.a_B)\n");
-    }
-    if ((8ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 3 is active: @( dut_wrapper.u_top_level.b_A)\n");
-    }
-    if ((0x10ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 4 is active: @( dut_wrapper.u_top_level.b_B)\n");
-    }
-    if ((0x20ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 5 is active: @( dut_wrapper.u_top_level.rst_A)\n");
-    }
-    if ((0x40ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 6 is active: @( dut_wrapper.u_top_level.rst_B)\n");
-    }
-    if ((0x80ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 7 is active: @( dut_wrapper.u_top_level.sum_async_A)\n");
-    }
-    if ((0x100ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 8 is active: @( dut_wrapper.u_top_level.sum_async_B)\n");
-    }
-    if ((0x200ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 9 is active: @( dut_wrapper.u_top_level.sum_sync_A)\n");
-    }
-    if ((0x400ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 10 is active: @( dut_wrapper.u_top_level.sum_sync_B)\n");
-    }
-    if ((0x800ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 11 is active: @( dut_wrapper.u_top_level.valid_in_A)\n");
-    }
-    if ((0x1000ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 12 is active: @( dut_wrapper.u_top_level.valid_in_B)\n");
-    }
 }
 #endif  // VL_DEBUG
 
@@ -207,42 +147,6 @@ VL_ATTR_COLD void Vtop___024root___dump_triggers__nba(Vtop___024root* vlSelf) {
     }
     if ((1ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VL_DBG_MSGF("         'nba' region trigger index 0 is active: @(posedge dut_wrapper.u_top_level.clk)\n");
-    }
-    if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 1 is active: @( dut_wrapper.u_top_level.a_A)\n");
-    }
-    if ((4ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 2 is active: @( dut_wrapper.u_top_level.a_B)\n");
-    }
-    if ((8ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 3 is active: @( dut_wrapper.u_top_level.b_A)\n");
-    }
-    if ((0x10ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 4 is active: @( dut_wrapper.u_top_level.b_B)\n");
-    }
-    if ((0x20ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 5 is active: @( dut_wrapper.u_top_level.rst_A)\n");
-    }
-    if ((0x40ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 6 is active: @( dut_wrapper.u_top_level.rst_B)\n");
-    }
-    if ((0x80ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 7 is active: @( dut_wrapper.u_top_level.sum_async_A)\n");
-    }
-    if ((0x100ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 8 is active: @( dut_wrapper.u_top_level.sum_async_B)\n");
-    }
-    if ((0x200ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 9 is active: @( dut_wrapper.u_top_level.sum_sync_A)\n");
-    }
-    if ((0x400ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 10 is active: @( dut_wrapper.u_top_level.sum_sync_B)\n");
-    }
-    if ((0x800ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 11 is active: @( dut_wrapper.u_top_level.valid_in_A)\n");
-    }
-    if ((0x1000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 12 is active: @( dut_wrapper.u_top_level.valid_in_B)\n");
     }
 }
 #endif  // VL_DEBUG
@@ -318,20 +222,5 @@ VL_ATTR_COLD void Vtop___024root___ctor_var_reset(Vtop___024root* vlSelf) {
     vlSelf->dut_wrapper__DOT__u_top_level__DOT____Vtogcov__b_B = VL_SCOPED_RAND_RESET_I(8, __VscopeHash, 4741626158586139203ull);
     vlSelf->dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_async_B = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 1538641705372044893ull);
     vlSelf->dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_sync_B = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 16245065681423078009ull);
-    vlSelf->__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 6162818210136074203ull);
-    vlSelf->__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 14118210931385957819ull);
     vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__clk__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 11755816861650229701ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_A__0 = VL_SCOPED_RAND_RESET_I(8, __VscopeHash, 851296444277988107ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_B__0 = VL_SCOPED_RAND_RESET_I(8, __VscopeHash, 1593755487383325626ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_A__0 = VL_SCOPED_RAND_RESET_I(8, __VscopeHash, 6498999267290321023ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_B__0 = VL_SCOPED_RAND_RESET_I(8, __VscopeHash, 6488824822216426173ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_A__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 15006373960758952472ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_B__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 4048659846719568706ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_A__0 = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 2045601589774165884ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_B__0 = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 15957954308461100965ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A__0 = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 931621043972357500ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B__0 = VL_SCOPED_RAND_RESET_I(9, __VscopeHash, 3212220694414948354ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_A__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 13345067550421072074ull);
-    vlSelf->__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_B__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 16369785440165580793ull);
-    vlSelf->__VactDidInit = 0;
 }

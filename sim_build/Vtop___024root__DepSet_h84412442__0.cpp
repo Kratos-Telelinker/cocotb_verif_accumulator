@@ -233,71 +233,8 @@ void Vtop___024root___eval_triggers__act(Vtop___024root* vlSelf) {
     // Body
     vlSelfRef.__VactTriggered.setBit(0U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__clk) 
                                           & (~ (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__clk__0))));
-    vlSelfRef.__VactTriggered.setBit(1U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_A) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_A__0)));
-    vlSelfRef.__VactTriggered.setBit(2U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_B) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_B__0)));
-    vlSelfRef.__VactTriggered.setBit(3U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_A) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_A__0)));
-    vlSelfRef.__VactTriggered.setBit(4U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_B) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_B__0)));
-    vlSelfRef.__VactTriggered.setBit(5U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_A) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_A__0)));
-    vlSelfRef.__VactTriggered.setBit(6U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_B) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_B__0)));
-    vlSelfRef.__VactTriggered.setBit(7U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_A) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_A__0)));
-    vlSelfRef.__VactTriggered.setBit(8U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_B) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_B__0)));
-    vlSelfRef.__VactTriggered.setBit(9U, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A) 
-                                          != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A__0)));
-    vlSelfRef.__VactTriggered.setBit(0xaU, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B) 
-                                            != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B__0)));
-    vlSelfRef.__VactTriggered.setBit(0xbU, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_A) 
-                                            != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_A__0)));
-    vlSelfRef.__VactTriggered.setBit(0xcU, ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_B) 
-                                            != (IData)(vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_B__0)));
     vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__clk__0 
         = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__clk;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__a_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__b_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__rst_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_async_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_A__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_A;
-    vlSelfRef.__Vtrigprevexpr___TOP__dut_wrapper__DOT__u_top_level__DOT__valid_in_B__0 
-        = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_B;
-    if (VL_UNLIKELY(((1U & (~ (IData)(vlSelfRef.__VactDidInit)))))) {
-        vlSelfRef.__VactDidInit = 1U;
-        vlSelfRef.__VactTriggered.setBit(1U, 1U);
-        vlSelfRef.__VactTriggered.setBit(2U, 1U);
-        vlSelfRef.__VactTriggered.setBit(3U, 1U);
-        vlSelfRef.__VactTriggered.setBit(4U, 1U);
-        vlSelfRef.__VactTriggered.setBit(5U, 1U);
-        vlSelfRef.__VactTriggered.setBit(6U, 1U);
-        vlSelfRef.__VactTriggered.setBit(7U, 1U);
-        vlSelfRef.__VactTriggered.setBit(8U, 1U);
-        vlSelfRef.__VactTriggered.setBit(9U, 1U);
-        vlSelfRef.__VactTriggered.setBit(0xaU, 1U);
-        vlSelfRef.__VactTriggered.setBit(0xbU, 1U);
-        vlSelfRef.__VactTriggered.setBit(0xcU, 1U);
-    }
 #ifdef VL_DEBUG
     if (VL_UNLIKELY(vlSymsp->_vm_contextp__->debug())) {
         Vtop___024root___dump_triggers__act(vlSelf);
@@ -309,16 +246,21 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___nba_sequent__TOP__0\n"); );
     Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Init
+    SData/*8:0*/ __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
+    __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A = 0;
+    SData/*8:0*/ __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
+    __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B = 0;
     // Body
-    vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A 
+    __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A 
         = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
-    vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B 
+    __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B 
         = vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
     if (vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_A) {
         ++(vlSymsp->__Vcoverage[294]);
-        vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A = 0U;
+        __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A = 0U;
     } else if (vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_A) {
-        vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A 
+        __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A 
             = (0x1ffU & ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A) 
                          + (IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_A)));
         ++(vlSymsp->__Vcoverage[292]);
@@ -328,9 +270,9 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
     ++(vlSymsp->__Vcoverage[295]);
     if (vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_B) {
         ++(vlSymsp->__Vcoverage[298]);
-        vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B = 0U;
+        __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B = 0U;
     } else if (vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_B) {
-        vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B 
+        __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B 
             = (0x1ffU & ((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B) 
                          + (IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_B)));
         ++(vlSymsp->__Vcoverage[296]);
@@ -338,41 +280,10 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
         ++(vlSymsp->__Vcoverage[297]);
     }
     ++(vlSymsp->__Vcoverage[299]);
-}
-
-VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__1(Vtop___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___nba_sequent__TOP__1\n"); );
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    if (VL_UNLIKELY((((~ (IData)(vlSymsp->TOP____024unit.__VmonitorOff)) 
-                      & (1U == vlSymsp->TOP____024unit.__VmonitorNum))))) {
-        VL_WRITEF_NX("%4t  |  %b  |  %b        | %0# | %0# |    %0#     |   %0#      | %b   |    %b     | %0# | %0#  |    %0#      |   %0# \n",0,
-                     64,VL_TIME_UNITED_Q(1000),-9,1,
-                     (IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_A),
-                     1,vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_A,
-                     8,(IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_A),
-                     8,vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_A,
-                     9,(IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_A),
-                     9,vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A,
-                     1,(IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__rst_B),
-                     1,vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__valid_in_B,
-                     8,(IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__a_B),
-                     8,vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__b_B,
-                     9,(IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_async_B),
-                     9,vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B);
-    }
-}
-
-VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__2(Vtop___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___nba_sequent__TOP__2\n"); );
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
     vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A 
-        = vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
+        = __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_A;
     vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_B 
-        = vlSelfRef.__Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
+        = __Vdly__dut_wrapper__DOT__u_top_level__DOT__sum_sync_B;
     if (((IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A) 
          ^ (IData)(vlSelfRef.dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_sync_A))) {
         VL_COV_TOGGLE_CHG_ST_I(9, vlSymsp->__Vcoverage + 202, vlSelfRef.dut_wrapper__DOT__u_top_level__DOT__sum_sync_A, vlSelfRef.dut_wrapper__DOT__u_top_level__DOT____Vtogcov__sum_sync_A);

@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1783289053" />
-    <testcase name="randomized_resets" classname="sim.tests.test_reset_randomized" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_reset_randomized.py" lineno="25" time="1.078683853149414" sim_time_ns="40642.0" ratio_time="37677.397210812305" />
+    <property name="random_seed" value="1783528145" />
+    <testcase name="randomized_resets" classname="sim.tests.test_reset_randomized" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_reset_randomized.py" lineno="25" time="7.585326910018921" sim_time_ns="404502.0" ratio_time="53326.90400801605" />
   </testsuite>
 </testsuites>

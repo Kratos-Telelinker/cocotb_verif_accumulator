@@ -31,7 +31,7 @@ async def constrained(dut):
 
     mid_reset_point = 250
 
-    for i in range(500):
+    for i in range(5000):
 
         # Mid-test reset
         if i == mid_reset_point:

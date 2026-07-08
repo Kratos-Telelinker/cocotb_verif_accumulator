@@ -84,7 +84,7 @@ async def dual_agent(dut):
     # ============================================================
 
     # Random traffic
-    for _ in range(10):
+    for _ in range(100):
         await agent_a.driver.send(AdderTransaction.random())
         await agent_b.driver.send(AdderTransaction.random())
         await Timer(1, "ns")

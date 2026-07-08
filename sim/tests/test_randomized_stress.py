@@ -42,7 +42,7 @@ async def randomized_stress(dut):
 
 
     # Stress test with separated cycles (Option 1)
-    for _ in range(200):
+    for _ in range(2000):
 
         # Channel A drives first
         await agent_a.driver.send(AdderTransaction.random())

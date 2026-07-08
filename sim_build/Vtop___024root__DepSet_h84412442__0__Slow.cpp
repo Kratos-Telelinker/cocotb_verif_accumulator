@@ -11,12 +11,9 @@ VL_ATTR_COLD void Vtop___024root___eval_initial__TOP(Vtop___024root* vlSelf) {
     Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    VL_WRITEF_NX("Time | rst_A| valid_in_A | a_A | b_A |sum_async_A | sum_sync_A |rst_B | valid_in_B| a_B | b_B  | sum_async_B | sum_sync_B   \n",0);
-    vlSymsp->TOP____024unit.__VmonitorNum = 1U;
-    ++(vlSymsp->__Vcoverage[300]);
     vlSymsp->_vm_contextp__->dumpfile(std::string{"dump.vcd"});
     vlSymsp->_traceDumpOpen();
-    ++(vlSymsp->__Vcoverage[301]);
+    ++(vlSymsp->__Vcoverage[300]);
 }
 
 #ifdef VL_DEBUG
@@ -76,6 +73,5 @@ VL_ATTR_COLD void Vtop___024root___configure_coverage(Vtop___024root* vlSelf, bo
     vlSelf->__vlCoverInsert(&(vlSymsp->__Vcoverage[297]), first, "rtl/top_level.sv", 37, 15, ".dut_wrapper.u_top_level", "v_branch/top_level", "else", "");
     vlSelf->__vlCoverInsert(&(vlSymsp->__Vcoverage[298]), first, "rtl/top_level.sv", 35, 9, ".dut_wrapper.u_top_level", "v_line/top_level", "elsif", "35-36");
     vlSelf->__vlCoverInsert(&(vlSymsp->__Vcoverage[299]), first, "rtl/top_level.sv", 34, 5, ".dut_wrapper.u_top_level", "v_line/top_level", "block", "34");
-    vlSelf->__vlCoverInsert(&(vlSymsp->__Vcoverage[300]), first, "rtl/top_level.sv", 43, 5, ".dut_wrapper.u_top_level", "v_line/top_level", "block", "43-46");
-    vlSelf->__vlCoverInsert(&(vlSymsp->__Vcoverage[301]), first, "rtl/top_level.sv", 49, 5, ".dut_wrapper.u_top_level", "v_line/top_level", "block", "49-51");
+    vlSelf->__vlCoverInsert(&(vlSymsp->__Vcoverage[300]), first, "rtl/top_level.sv", 49, 5, ".dut_wrapper.u_top_level", "v_line/top_level", "block", "49-51");
 }

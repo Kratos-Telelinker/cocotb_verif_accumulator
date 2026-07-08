@@ -1,4 +1,4 @@
-# cocotb_modified3
+# cocotb_verif_accumulator
 A structured, extensible cocotb verification environment built for hardware simulation, regression automation, waveform analysis, and toolchain validation. This project provides a clean foundation for building UVM‑style verification flows using Python and cocotb.
 
 ---
@@ -16,6 +16,9 @@ A structured, extensible cocotb verification environment built for hardware simu
 
 This environment is designed for engineers who want a reproducible, minimal‑friction setup for hardware verification using Python.
 
+To note two documents are extremely import which are both located in the docs/pdf folder
+    1.    Tools_confg.pdf
+    2.    Running_Simulation Tests.pdf
 ---
 
 ## 2. Directory Structure

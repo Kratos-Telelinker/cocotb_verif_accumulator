@@ -40,11 +40,11 @@ module top_level (
 
     assign sum_async_B = a_B + b_B;
 
-    initial begin
-        $display("Time | rst_A| valid_in_A | a_A | b_A |sum_async_A | sum_sync_A |rst_B | valid_in_B| a_B | b_B  | sum_async_B | sum_sync_B   ");
-        $monitor("%4t  |  %b  |  %b        | %0d | %0d |    %0d     |   %0d      | %b   |    %b     | %0d | %0d  |    %0d      |   %0d ",
-                 $time, rst_A, valid_in_A, a_A, b_A, sum_async_A,sum_sync_A, rst_B, valid_in_B, a_B, b_B, sum_async_B, sum_sync_B);
-    end
+    // initial begin
+    //     $display("Time | rst_A| valid_in_A | a_A | b_A |sum_async_A | sum_sync_A |rst_B | valid_in_B| a_B | b_B  | sum_async_B | sum_sync_B   ");
+    //     $monitor("%9t  |  %b  |  %b        | %3d | %3d |    %3d     |   %3d      | %b   |    %b     | %3d | %3d  |    %3d      |   %3d ",
+    //              $time, rst_A, valid_in_A, a_A, b_A, sum_async_A,sum_sync_A, rst_B, valid_in_B, a_B, b_B, sum_async_B, sum_sync_B);
+    // end
 
     initial begin
         $dumpfile("dump.vcd");
