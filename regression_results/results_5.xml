@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1783618729" />
+    <testcase name="directed_channel_A" classname="sim.tests.test_directed_channel_A" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_directed_channel_A.py" lineno="14" time="0.0015850067138671875" sim_time_ns="140.0" ratio_time="88327.70156438026" />
+  </testsuite>
+</testsuites>

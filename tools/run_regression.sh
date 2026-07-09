@@ -43,7 +43,7 @@ for T in "${TESTS[@]}"; do
 
     rm -f results.xml
 
-    MODULE=$T TESTCASE= make results.xml
+    COCOTB_TEST_MODULES=$T TESTCASE= make results.xml
 
     # Save Verilator coverage
     if [ -f coverage.dat ]; then
