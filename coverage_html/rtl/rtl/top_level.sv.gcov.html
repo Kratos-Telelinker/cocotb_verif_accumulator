@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td class="headerItem">Test Date:</td>
-            <td class="headerValue">2026-07-09 11:40:32</td>
+            <td class="headerValue">2026-07-09 11:57:46</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntryHi">-</td>
@@ -63,41 +63,41 @@
 <span id="L1"><span class="lineNum">       1</span>              : </span>
 <span id="L2"><span class="lineNum">       2</span>              : </span>
 <span id="L3"><span class="lineNum">       3</span>              : module top_level (</span>
-<span id="L4"><span class="lineNum">       4</span> <span class="tlaGNC tlaBgGNC">      796292 :     input  logic       clk,</span></span>
+<span id="L4"><span class="lineNum">       4</span> <span class="tlaGNC tlaBgGNC">      796331 :     input  logic       clk,</span></span>
 <span id="L5"><span class="lineNum">       5</span>              : </span>
 <span id="L6"><span class="lineNum">       6</span>              :     // Channel A</span>
-<span id="L7"><span class="lineNum">       7</span> <span class="tlaGNC">         485 :     input  logic       rst_A,</span></span>
-<span id="L8"><span class="lineNum">       8</span> <span class="tlaGNC">      295141 :     input  logic       valid_in_A,</span></span>
-<span id="L9"><span class="lineNum">       9</span> <span class="tlaGNC">       92721 :     input  logic [7:0] a_A,</span></span>
-<span id="L10"><span class="lineNum">      10</span> <span class="tlaGNC">       92377 :     input  logic [7:0] b_A,</span></span>
-<span id="L11"><span class="lineNum">      11</span> <span class="tlaGNC">       94979 :     output logic [8:0] sum_async_A,</span></span>
-<span id="L12"><span class="lineNum">      12</span> <span class="tlaGNC">       92736 :     output logic [8:0] sum_sync_A,</span></span>
+<span id="L7"><span class="lineNum">       7</span> <span class="tlaGNC">         468 :     input  logic       rst_A,</span></span>
+<span id="L8"><span class="lineNum">       8</span> <span class="tlaGNC">      295241 :     input  logic       valid_in_A,</span></span>
+<span id="L9"><span class="lineNum">       9</span> <span class="tlaGNC">       92782 :     input  logic [7:0] a_A,</span></span>
+<span id="L10"><span class="lineNum">      10</span> <span class="tlaGNC">       92675 :     input  logic [7:0] b_A,</span></span>
+<span id="L11"><span class="lineNum">      11</span> <span class="tlaGNC">       94723 :     output logic [8:0] sum_async_A,</span></span>
+<span id="L12"><span class="lineNum">      12</span> <span class="tlaGNC">       92780 :     output logic [8:0] sum_sync_A,</span></span>
 <span id="L13"><span class="lineNum">      13</span>              : </span>
 <span id="L14"><span class="lineNum">      14</span>              :     // Channel B</span>
-<span id="L15"><span class="lineNum">      15</span> <span class="tlaGNC">         499 :     input  logic       rst_B,</span></span>
-<span id="L16"><span class="lineNum">      16</span> <span class="tlaGNC">      245107 :     input  logic       valid_in_B,</span></span>
-<span id="L17"><span class="lineNum">      17</span> <span class="tlaGNC">       80134 :     input  logic [7:0] a_B,</span></span>
-<span id="L18"><span class="lineNum">      18</span> <span class="tlaGNC">       80023 :     input  logic [7:0] b_B,</span></span>
-<span id="L19"><span class="lineNum">      19</span> <span class="tlaGNC">       80301 :     output logic [8:0] sum_async_B,</span></span>
-<span id="L20"><span class="lineNum">      20</span> <span class="tlaGNC">       83633 :     output logic [8:0] sum_sync_B</span></span>
+<span id="L15"><span class="lineNum">      15</span> <span class="tlaGNC">         555 :     input  logic       rst_B,</span></span>
+<span id="L16"><span class="lineNum">      16</span> <span class="tlaGNC">      245052 :     input  logic       valid_in_B,</span></span>
+<span id="L17"><span class="lineNum">      17</span> <span class="tlaGNC">       80151 :     input  logic [7:0] a_B,</span></span>
+<span id="L18"><span class="lineNum">      18</span> <span class="tlaGNC">       80301 :     input  logic [7:0] b_B,</span></span>
+<span id="L19"><span class="lineNum">      19</span> <span class="tlaGNC">       80254 :     output logic [8:0] sum_async_B,</span></span>
+<span id="L20"><span class="lineNum">      20</span> <span class="tlaGNC">       83703 :     output logic [8:0] sum_sync_B</span></span>
 <span id="L21"><span class="lineNum">      21</span>              : );</span>
 <span id="L22"><span class="lineNum">      22</span>              : </span>
 <span id="L23"><span class="lineNum">      23</span>              :     // Channel A synchronous accumulator</span>
-<span id="L24"><span class="lineNum">      24</span> <span class="tlaGNC">      796292 :     always_ff @(posedge clk) begin</span></span>
-<span id="L25"><span class="lineNum">      25</span> <span class="tlaGNC">         495 :         if (rst_A)</span></span>
-<span id="L26"><span class="lineNum">      26</span> <span class="tlaGNC">         495 :             sum_sync_A &lt;= '0;</span></span>
-<span id="L27"><span class="lineNum">      27</span> <span class="tlaGNC">      450652 :         else if (valid_in_A)</span></span>
-<span id="L28"><span class="lineNum">      28</span> <span class="tlaGNC">      345145 :             sum_sync_A &lt;= sum_sync_A + b_A;</span></span>
+<span id="L24"><span class="lineNum">      24</span> <span class="tlaGNC">      796331 :     always_ff @(posedge clk) begin</span></span>
+<span id="L25"><span class="lineNum">      25</span> <span class="tlaGNC">         478 :         if (rst_A)</span></span>
+<span id="L26"><span class="lineNum">      26</span> <span class="tlaGNC">         478 :             sum_sync_A &lt;= '0;</span></span>
+<span id="L27"><span class="lineNum">      27</span> <span class="tlaGNC">      450608 :         else if (valid_in_A)</span></span>
+<span id="L28"><span class="lineNum">      28</span> <span class="tlaGNC">      345245 :             sum_sync_A &lt;= sum_sync_A + b_A;</span></span>
 <span id="L29"><span class="lineNum">      29</span>              :     end</span>
 <span id="L30"><span class="lineNum">      30</span>              : </span>
 <span id="L31"><span class="lineNum">      31</span>              :     assign sum_async_A = a_A + b_A;</span>
 <span id="L32"><span class="lineNum">      32</span>              : </span>
 <span id="L33"><span class="lineNum">      33</span>              :     // Channel B synchronous accumulator</span>
-<span id="L34"><span class="lineNum">      34</span> <span class="tlaGNC">      796292 :     always_ff @(posedge clk) begin</span></span>
-<span id="L35"><span class="lineNum">      35</span> <span class="tlaGNC">         507 :         if (rst_B)</span></span>
-<span id="L36"><span class="lineNum">      36</span> <span class="tlaGNC">         507 :             sum_sync_B &lt;= '0;</span></span>
-<span id="L37"><span class="lineNum">      37</span> <span class="tlaGNC">      500677 :         else if (valid_in_B)</span></span>
-<span id="L38"><span class="lineNum">      38</span> <span class="tlaGNC">      295108 :             sum_sync_B &lt;= sum_sync_B + b_B;</span></span>
+<span id="L34"><span class="lineNum">      34</span> <span class="tlaGNC">      796331 :     always_ff @(posedge clk) begin</span></span>
+<span id="L35"><span class="lineNum">      35</span> <span class="tlaGNC">         563 :         if (rst_B)</span></span>
+<span id="L36"><span class="lineNum">      36</span> <span class="tlaGNC">         563 :             sum_sync_B &lt;= '0;</span></span>
+<span id="L37"><span class="lineNum">      37</span> <span class="tlaGNC">      500715 :         else if (valid_in_B)</span></span>
+<span id="L38"><span class="lineNum">      38</span> <span class="tlaGNC">      295053 :             sum_sync_B &lt;= sum_sync_B + b_B;</span></span>
 <span id="L39"><span class="lineNum">      39</span>              :     end</span>
 <span id="L40"><span class="lineNum">      40</span>              : </span>
 <span id="L41"><span class="lineNum">      41</span>              :     assign sum_async_B = a_B + b_B;</span>
