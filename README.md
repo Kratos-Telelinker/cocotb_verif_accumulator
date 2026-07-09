@@ -16,11 +16,11 @@ A structured, extensible cocotb verification environment built for hardware simu
 
 This environment is designed for engineers who want a reproducible, minimal‑friction setup for hardware verification using Python.
 
-To note two documents are extremely import which are both located in the docs/pdf folder
+Note two documents are extremely import which are both located in the docs/pdf folder
     1.    Tools_confg.pdf
     2.    Running_Simulation Tests.pdf
 ---
-
+Pay attention to the .ignore file that ignores 1. regression results and 2. Sim build folders as they are recreated on each simulation run, effectively they become local only folders to limit the size of the revison controlled files. 
 ## 2. Directory Structure
 
 
