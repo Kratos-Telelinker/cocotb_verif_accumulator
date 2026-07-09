@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1783616485" />
-    <testcase name="randomized_resets" classname="sim.tests.test_reset_randomized" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_reset_randomized.py" lineno="25" time="19.81575059890747" sim_time_ns="1010032.0" ratio_time="50971.17038078222" />
-  </testsuite>
-</testsuites>
