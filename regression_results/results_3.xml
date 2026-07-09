@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1783616390" />
-    <testcase name="dual_agent" classname="sim.tests.test_dual_agent" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_dual_agent.py" lineno="15" time="7.080176830291748" sim_time_ns="400142.0" ratio_time="56515.82009760505" />
-  </testsuite>
-</testsuites>
