@@ -26,11 +26,22 @@ async def test_basic(dut):
 
     await RisingEdge(dut.clk)
     dut.valid_in_A.value = 0
-
+    cocotb.log.info("\nFirst Iterations of Loop Displayed for Debugging\n")
     # Let sum_sync settle a few cycles
-    for _ in range(3):
+    for _ in range(50000):
         await RisingEdge(dut.clk)
-
+        if _ <= 5 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+            )
     # Check combinational sum_async
     assert int(dut.sum_async_A.value) == 30
 

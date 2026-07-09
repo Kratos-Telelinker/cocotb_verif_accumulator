@@ -30,8 +30,8 @@ async def constrained(dut):
     dut.rst_A.value = 0
 
     mid_reset_point = 250
-
-    for i in range(5000):
+    cocotb.log.info("\nFirst Iterations of Loop Displayed for Debugging\n")
+    for i in range(50000):
 
         # Mid-test reset
         if i == mid_reset_point:
@@ -41,7 +41,7 @@ async def constrained(dut):
             dut.valid_in_A.value = 0
             await RisingEdge(dut.clk)
             dut.rst_A.value = 0
-
+            
         # Drive constrained stimulus
         dut.valid_in_A.value = 1
         dut.a_A.value = rand_from_bins(i)
@@ -53,6 +53,18 @@ async def constrained(dut):
         # Idle cycles
         await RisingEdge(dut.clk)
         await RisingEdge(dut.clk)
+        if i <= 5 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+                )
 
 
 

@@ -82,13 +82,24 @@ async def dual_agent(dut):
     # ============================================================
     # END DIRECTED STIMULUS
     # ============================================================
-
+    cocotb.log.info("\nFirst Iterations of Loop Displayed for Debugging\n")
     # Random traffic
-    for _ in range(100):
+    for _ in range(20000):
         await agent_a.driver.send(AdderTransaction.random())
         await agent_b.driver.send(AdderTransaction.random())
         await Timer(1, "ns")
-
+        if _ <= 5 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+            )
     env.finalize()
 
 

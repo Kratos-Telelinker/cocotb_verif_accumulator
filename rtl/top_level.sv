@@ -48,7 +48,7 @@ module top_level (
 
     initial begin
         $dumpfile("dump.vcd");
-        $dumpvars(1, top_level.sv);
+        $dumpvars(1, top_level);
     end
 
 endmodule

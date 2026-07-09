@@ -40,13 +40,26 @@ async def randomized(dut):
     dut.rst_B.value = 0
     
     # Wait one clock so the first transaction doesn’t collide with the 40 ns sample
+    cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
     await RisingEdge(dut.clk)
 
-    for _ in range(500):
+    for _ in range(50000):
         await agent_a.driver.send(AdderTransaction.random())
         await agent_b.driver.send(AdderTransaction.random())
 
         # Critical: allow DUT async sums to update before monitor samples
         await Timer(1, "ns")
+        if _ <= 5 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+            )
     env.finalize()
 

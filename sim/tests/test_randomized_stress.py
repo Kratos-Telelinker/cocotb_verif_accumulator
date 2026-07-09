@@ -40,9 +40,10 @@ async def randomized_stress(dut):
     # Wait one clock so the first transaction doesn’t collide with the 40 ns sample
     await RisingEdge(dut.clk)
 
+    cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
 
     # Stress test with separated cycles (Option 1)
-    for _ in range(2000):
+    for _ in range(150000):
 
         # Channel A drives first
         await agent_a.driver.send(AdderTransaction.random())
@@ -51,7 +52,18 @@ async def randomized_stress(dut):
         # Channel B drives on the next cycle
         await agent_b.driver.send(AdderTransaction.random())
         await Timer(1, "ns")   # allow DUT to sample B
-
+        if _ <= 5 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+            )
     env.finalize()
 
 

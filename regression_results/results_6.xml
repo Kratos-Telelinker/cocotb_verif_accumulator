@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1783528141" />
-    <testcase name="directed_channel_B" classname="sim.tests.test_directed_channel_B" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_directed_channel_B.py" lineno="6" time="0.001107931137084961" sim_time_ns="51.0" ratio_time="46031.74176888315" />
+    <property name="random_seed" value="1783616401" />
+    <testcase name="directed_channel_B" classname="sim.tests.test_directed_channel_B" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_directed_channel_B.py" lineno="6" time="0.0007863044738769531" sim_time_ns="51.0" ratio_time="64860.37113402062" />
   </testsuite>
 </testsuites>

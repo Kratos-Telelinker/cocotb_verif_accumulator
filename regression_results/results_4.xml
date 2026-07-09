@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1783528140" />
-    <testcase name="test_dual_constrained" classname="sim.tests.test_dual_constrained" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_dual_constrained.py" lineno="9" time="0.06643557548522949" sim_time_ns="20031.0" ratio_time="301510.14503446966" />
+    <property name="random_seed" value="1783616398" />
+    <testcase name="test_dual_constrained" classname="sim.tests.test_dual_constrained" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_dual_constrained.py" lineno="9" time="1.570608377456665" sim_time_ns="500031.0" ratio_time="318367.7148148896" />
   </testsuite>
 </testsuites>

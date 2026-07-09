@@ -45,11 +45,12 @@ async def randomized_resets(dut):
     await agent_b.driver.reset()
 
     # REQUIRED: one non-valid cycle BEFORE any valid sequence
+    cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
     await agent_a.driver.send(AdderTransaction(a=0, b=0, valid_in=0))
     await agent_b.driver.send(AdderTransaction(a=0, b=0, valid_in=0))
     await Timer(1, "ns")
 
-    for _ in range(20000):
+    for _ in range(50000):
 
         await agent_a.driver.send(random_txn())
         await agent_b.driver.send(random_txn())
@@ -60,6 +61,18 @@ async def randomized_resets(dut):
             await agent_b.driver.reset()
 
         await Timer(1, "ns")
+        if _ <= 5 :
+            cocotb.log.info(
+                f"RAW DUT: "
+                f"a_A={int(dut.a_A.value)} "
+                f"b_A={int(dut.b_A.value)} "
+                f"sum_async_A={int(dut.sum_async_A.value)} "
+                f"valid_in_A={int(dut.valid_in_A.value)} | "
+                f"a_B={int(dut.a_B.value)} "
+                f"b_B={int(dut.b_B.value)} "
+                f"sum_async_B={int(dut.sum_async_B.value)} "
+                f"valid_in_B={int(dut.valid_in_B.value)}"
+            )
 
     await Timer(200, "ns")
     env.finalize()

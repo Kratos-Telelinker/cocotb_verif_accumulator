@@ -28,8 +28,8 @@ async def test_dual_constrained(dut):
     cocotb.log.info("Reset complete, beginning constrained stimulus")
 
     # Constrained random testing loop
-    cocotb.log.info("\nFirst 25 Iterations of Loop Displayed for Debugging\n")
-    for i in range(2000):
+    cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
+    for i in range(50000):
 
         # Constrained stimulus for A
         a_A = random.randint(0, 5)
@@ -50,7 +50,7 @@ async def test_dual_constrained(dut):
         await RisingEdge(dut.clk)
 
         
-        if i <= 25 :
+        if i <= 5 :
             cocotb.log.info(
                 f"RAW DUT: "
                 f"a_A={int(dut.a_A.value)} "
