@@ -1,0 +1,8 @@
+# Ignore build directory
+sim_build/
+
+# Ignore results directory
+regression_results/
+
+# Ignore all dump files
+*.vcd
