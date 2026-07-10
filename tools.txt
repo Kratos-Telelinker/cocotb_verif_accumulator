@@ -1,4 +1,4 @@
-# Required system tools for cocotb_modified3
+# Required system tools for cocotb_verif_accumulator
 
 Python 3.11.x
 Virtualenv (python3.11-venv)
