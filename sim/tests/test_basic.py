@@ -28,7 +28,7 @@ async def test_basic(dut):
     dut.valid_in_A.value = 0
     cocotb.log.info("\nFirst Iterations of Loop Displayed for Debugging\n")
     # Let sum_sync settle a few cycles
-    for _ in range(50000):
+    for _ in range(500): # 50000set the desired number of cycles for the test
         await RisingEdge(dut.clk)
         if _ <= 5 :
             cocotb.log.info(

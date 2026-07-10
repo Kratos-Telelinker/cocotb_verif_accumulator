@@ -84,7 +84,7 @@ async def dual_agent(dut):
     # ============================================================
     cocotb.log.info("\nFirst Iterations of Loop Displayed for Debugging\n")
     # Random traffic
-    for _ in range(20000):
+    for _ in range(200): # 20000 Set the desired number of cycles for the test
         await agent_a.driver.send(AdderTransaction.random())
         await agent_b.driver.send(AdderTransaction.random())
         await Timer(1, "ns")

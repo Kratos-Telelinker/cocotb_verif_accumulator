@@ -43,7 +43,7 @@ async def directed_channel_A(dut):
         AdderTransaction(a=5, b=3, valid_in=1),
         AdderTransaction(a=2, b=2, valid_in=1),
         AdderTransaction(a=0, b=7, valid_in=1),
-        AdderTransaction(a=9, b=1, valid_in=1),
+        AdderTransaction(a=9, b=1, valid_in=1)
     ]
 
     for txn in directed_vecs:

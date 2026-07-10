@@ -1,7 +1,7 @@
 # Ignore build directory
-sim_build/
+# sim_build/
 
 # Ignore results directory
-regression_results/
+# regression_results/
 
 

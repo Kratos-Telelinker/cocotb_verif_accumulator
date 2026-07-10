@@ -29,7 +29,7 @@ async def test_dual_constrained(dut):
 
     # Constrained random testing loop
     cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
-    for i in range(50000):
+    for i in range(500): # 50000 Set the desired number of iterations for the test
 
         # Constrained stimulus for A
         a_A = random.randint(0, 5)

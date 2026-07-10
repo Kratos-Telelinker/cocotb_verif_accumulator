@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1783714966" />
+    <testcase name="randomized_stress" classname="sim.tests.test_randomized_stress" file="/home/bdballa/cocotb_projects/cocotb_verif_accumulator/sim/tests/test_randomized_stress.py" lineno="14" time="0.7197413444519043" sim_time_ns="15022.0" ratio_time="20871.386805546816" />
+  </testsuite>
+</testsuites>

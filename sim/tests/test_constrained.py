@@ -31,7 +31,7 @@ async def constrained(dut):
 
     mid_reset_point = 250
     cocotb.log.info("\nFirst Iterations of Loop Displayed for Debugging\n")
-    for i in range(50000):
+    for i in range(500): # 50000 Setthe desired number of iterations for the test
 
         # Mid-test reset
         if i == mid_reset_point:

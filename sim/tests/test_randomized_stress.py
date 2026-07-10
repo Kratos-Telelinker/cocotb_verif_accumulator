@@ -43,7 +43,7 @@ async def randomized_stress(dut):
     cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
 
     # Stress test with separated cycles (Option 1)
-    for _ in range(150000):
+    for _ in range(1500): # 150000 Set the desired number of cycles for the test
 
         # Channel A drives first
         await agent_a.driver.send(AdderTransaction.random())

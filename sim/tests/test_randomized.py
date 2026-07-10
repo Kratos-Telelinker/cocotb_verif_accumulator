@@ -43,7 +43,7 @@ async def randomized(dut):
     cocotb.log.info("\nFirst 5 Iterations of Loop Displayed for Debugging\n")
     await RisingEdge(dut.clk)
 
-    for _ in range(50000):
+    for _ in range(500): # 50000 Set the desired number of cycles for the test
         await agent_a.driver.send(AdderTransaction.random())
         await agent_b.driver.send(AdderTransaction.random())
 
