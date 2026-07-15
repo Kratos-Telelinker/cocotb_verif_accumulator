@@ -5,7 +5,7 @@ A structured, extensible cocotb verification environment built for hardware simu
 
 ## 1. Overview
 
-`cocotb_modified3` is a self‑contained verification workspace featuring:
+`cocotb_verif_accumulator` is a self‑contained verification workspace featuring:
 
 - A dedicated Python 3.11 virtual environment (`py311/`)
 - A Makefile‑based tool validation suite
